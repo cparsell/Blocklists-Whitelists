@@ -1,0 +1,15 @@
+*.adobesc.com
+*.licenses.adobe.com
+*.adobelogin.com
+*.ftcdn.net
+*.behance.net
+*.adobedtm.com
+*.demdex.net
+*.demandbase.com
+*.adobeoobe.com
+*.macromedia.com
+adbemdigitalmediarebootprod2.112.2o7.net
+*.edgefonts.net
+*.adobejanus.com
+*.adobeccstatic.com
+*.adobess.com
