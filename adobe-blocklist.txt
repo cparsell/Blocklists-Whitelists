@@ -1,6 +1,9 @@
+To be added to the Blacklist (check 'Add domain as wildcard')
+Source: https://helpx.adobe.com/enterprise/kb/network-endpoints.html
+
 *.adobesc.com
-*.licenses.adobe.com
-*.adobelogin.com
+*.licenses.adobe.com    - assumed necessary
+*.adobelogin.com        - assumed necessary
 *.ftcdn.net
 *.behance.net
 *.adobedtm.com
@@ -13,3 +16,19 @@ adbemdigitalmediarebootprod2.112.2o7.net
 *.adobejanus.com
 *.adobeccstatic.com
 *.adobess.com
+*.businesscatalyst.com
+*.worldsecuresystems.com
+*.adbecrsl.com
+*.omniture.com
+googleads.g.doubleclick.net
+www.googleadservices.com
+www.googletagmanager.com
+wwwimages2.adobe.com
+match.prod.bidr.ios
+scripts.demandbase.com
+cdn.inpwrd.net
+ct.pinterest.com
+d9.flashtalking.com
+pixel.quantserve.com
+9212252.fls.doubleclick.net
+www.everestjs.net
