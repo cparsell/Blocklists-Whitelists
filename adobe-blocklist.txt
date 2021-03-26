@@ -2,8 +2,8 @@ To be added to the Blacklist (check 'Add domain as wildcard')
 Source: https://helpx.adobe.com/enterprise/kb/network-endpoints.html
 
 *.adobesc.com
-*.licenses.adobe.com    - assumed necessary
-*.adobelogin.com        - assumed necessary
+*.licenses.adobe.com    - assumed necessary (whitelist if needed)
+*.adobelogin.com        - assumed necessary (whitelist if needed)
 *.ftcdn.net
 *.behance.net
 *.adobedtm.com
