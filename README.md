@@ -14,7 +14,11 @@ To use the list, go to pfBlockerNG > IP > IPv4. Add a new list whose "action" is
 Go to PFBlockerNG > Update > Reload > IP. Now the Alias has been created.
 
 Then create a rule in your LAN rules (or whichever interface is appropriate):
-- action "pass", protocol "any", source "any", destination "single host or alias". Advanced Options > Gateway to "whatever your WAN gateway is called".
+- action "pass"
+- protocol "any", 
+- source "any", 
+- destination "single host or alias" "pfB_NoVPN_v4" should be what it is called, 
+- Advanced Options > Gateway to "whatever your WAN gateway is called".
 
 ## Amazon AWS
 It is also possible to create a bypass for all Amazon AWS IP addresses. I've experimented with using this but the NoVPN list is still most helpful for my purposes - streaming Prime Video.
@@ -24,4 +28,7 @@ Under PfBlockerNG > IP > IPv4, create a new list group called AmazonAWS.  Add 'h
 Go to PFBlockerNG > Update > Reload > IP. Now the Alias has been created.
 
 Create a rule in LAN rules:
-- Action "pass", protocol "any", source "any", destination "single host or alias". Advanced Options > Gateway to "whatever your WAN gateway is called". That should allow any AWS through your WAN without the VPN.
+- Action "pass", 
+- protocol "any", 
+- source "any", 
+- destination "single host or alias" "pfB_AmazonAWS_v4" should be what it is called. Advanced Options > Gateway to "whatever your WAN gateway is called". That should allow any AWS through your WAN without the VPN.
