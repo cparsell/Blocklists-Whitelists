@@ -31,4 +31,5 @@ Create a rule in LAN rules:
 - Action "pass", 
 - protocol "any", 
 - source "any", 
-- destination "single host or alias" "pfB_AmazonAWS_v4" should be what it is called. Advanced Options > Gateway to "whatever your WAN gateway is called". That should allow any AWS through your WAN without the VPN.
+- destination "single host or alias" "pfB_AmazonAWS_v4" should be what it is called. 
+- Advanced Options > Gateway to "whatever your WAN gateway is called". That should allow any AWS through your WAN without the VPN.
