@@ -1,0 +1,111 @@
+/^telemetry?[-.]/
+/^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]/ ! adserver_regex
+/^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.]/
+/^(.+[-_.])??telemetry[-.]/ ! telemetry_regex
+/^(.+[-_.])??xn--/
+/^adim(age|g)s?[0-9]*[-_.]/ ! adimage_regex
+/^adtrack(er|ing)?[0-9]*[-.]/ ! adtrackering_regex
+/^advert(s|is(ing|ements?))?[0-9]*[-_.]/
+/^aff(iliat(es?|ion))?[-.]/
+/^analytics?[-.]/ ! analytics_regex
+/^banners?[-.]/ ! banners_regex
+/^beacons?[0-9]*[-.]/ ! beacon_regex
+/^count(ers?)?[0-9]*[-.]/ ! counters_regex
+/^pixels?[-.]/ ! pixels_regex
+/^stat(s|istics)?[0-9]*[-.]/ ! stats_regex
+/^track(ers?|ing)?[0-9]*[-.]/ ! trackersing_regex
+/^traff(ic)?[-.]/ ! traffic_regex
+/google-{0,}(analytic|syndication|(ad[a-z0-9]*|tag)-{0,}service)[s]\.[a-z]{2,7}$/ ! goog_anal_regex
+/google-{0,}(analytics{0,}|(ad|tag)manager)\.[a-z]{2,7}$/ ! goog_analtag_regex
+/double-{0,}clic(k|k[.]*by-{0,}google)\.[a-z]{2,7}$/ ! doubleclick_regex
+/(google|partner|pub)-{0,}ads{0,}-{0,}\.[a-z]{2,7}$/ ! goog_partner_regex
+/(/^|\.)fbsbx\.com\.online-metrix\.net$/ ! fbsbx_regex
+/(/^|\.)m\.me$/ ! mme_regex
+/(/^|\.)whatsapp\.com$/ ! whatsapp_regex
+/^(.+\.)?amp\..+\.com$/ ! amp_regex
+/^(.+\.)?ampproject\.org$/ ! ampproj_regex
+/^(.+\.)?amp\.cloudflare\.com$/ ! ampcloudflare_regex
+/^(.+\.)?cdn\.ampproject\.org$/ ! cdn_amp_regex
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/ ! clicks_regex
+/([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+/([A-Za-z0-9.-]*\.)?match\.com/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
+/([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+/([A-Za-z0-9.-]*\.)?clicks\.beap/
+/([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?advertising\.com/
+/([A-Za-z0-9.-]*\.)?evidon\.com/
+/([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+/([A-Za-z0-9.-]*\.)?flashtalking\.com/
+/([A-Za-z0-9.-]*\.)?turn\.com/
+/([A-Za-z0-9.-]*\.)?mathtag\.com/
+/([A-Za-z0-9.-]*\.)?surveylink/
+/([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/
+/(/^|\.)lgsmartad\.com$/ ! lgsmartad_regex
+/(/^|\.)buffpanel\.com$/ ! buffpanel_regex
+/(/^|\.)bugsnag\.com$/
+/(/^|\.)redshell\.io$/
+/(/^|\.)treasuredata\.com$/
+/(/^|\.)unity(|3d)\.com$/ ! unity_regex
+/(/^|\.)unityads(|\.co)\.com$/ ! unity_ads_regex
+! LG
+/.*lg.*ad\.\w+/ ! lg_regex1
+/lgad.*/ ! lg_regex2
+/(/^|\.)ibs\.lgappstv\.com/  ! lg_regex3
+/(/^|\.)lgsmartad\.com/ ! lg_regex4
+/(/^|\.)smartshare\.lgtvsdp\.com/ ! lg_regex5
+/(/^|\.)rdx2\.lgtvsdp\.com/ ! lg_regex6
+/^[a-z]{11,15}$/
+! Samsung
+/(/^|\.)giraffic\.com$/ ! Samsung_regex1
+/(/^|\.)internetat\.tv$/ ! Samsung_regex2
+/(/^|\.)pavv\.co\.kr$/ ! Samsung_regex3
+! (/^|\.)samsungcloudcdn\.com$/ ! prevents updates
+! (/^|\.)samsungcloudsolution\.com$/ ! prevents internet connection
+/(/^|\.)samsungcloudsolution\.net$/ ! Samsung_regex4
+/(/^|\.)samsungelectronics\.com$/ ! Samsung_regex5
+! (/^|\.)samsungotn\.net$/ ! prevents updates
+/(/^|\.)samsungrm\.net$/ ! Samsung_regex6
+/(/^|\.)*pre-?rolls*\./ ! Amazon-reg
+/(/^|\.)*video-?rolls*\./ ! Amazon-reg2
+/(/^|\.)*trick-play*\./ ! Amazon-reg3
+/(/^|\.)*timed-?text*\./ ! amazon-reg4
+/^(.*\.)*(sonobi|contentabc|exponential|bebi|3lift|leanplum|hotjar|m-pathy|parsely|exelator|touchcommerce|magnetic|exosrv|go2affise|mgid|clksite|tynt|inclk|bidswitch|optimizely|tiqcdn|maxymiser|9xiazaiqi|siquality|snwxn|8wix|tudown|psdzy|bankofamericaslpemr|cloudns|pfa.levexis)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg1
+/^(.*\.)*(dotomi|urbanairship|criteo|yimg|footprint|sitescout|turn|w55c|openx|voluumtrk|videoplaza|inmobi|reporo|cnzz|skim(resources|links)|tribalfusion|getsocial|hoverr|mediaplex|auditude|tacoda|puserving|d(e|o)mdex)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg2
+/^(.*\.)*(buffpanel|redshell|treasuredata|unity(ads|3d)|evidon|flashtalking|mathtag|mediamath|scorecardresearch|yieldmanager|sharezips|liveadvert|mktoresp|online-metrix|mobileapptracking|webengage|mpstat|trafficjunky|alphonso|stickyadstv|marketo|tubemogul|kameleoon|24s|0x1f4b0)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg3
+/^(.*\.)*(petametrics|localytics|onthe|newrelic|casalemedia|tidaltv|newsinc|nr-data|tapad|crazyegg|vserv|solocpm|ojrq|getclicky|narrative|7eer|evyy|impactradius|redtrack|content-ad|sharethrough|getui|pro-market|albacross|evergage|araleg|districtm|singular|dynamicyield|smrtb|everesttech|snapchatprime)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg4
+/^(.*\.)*(perimeterx|coremetrics|veinteractive|netcoresmartech|vungle|batmobi|marinsm|igexin|keywordblocks|facebook-info|freecontent|hostingcloud|360safe|axiatraders|beginads|ero-advertising|inteleksys|joodfbnm*[0-9]*|nbrwer*[0-9]*|usergrid|trackersimulator|tapjoy|supercell|bluekai|chartboost|atues|duilawyeryork|bannerflow|bmmetrix|flagcounter)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg5
+/^(.*\.)*(segment|braze|amplitude|emetriq|buysellads|ioam|ensighten|eulerian|dnsdelegation|clicktale|samsungads|userlike|summerhamster|sourcepoint|adobetm|pcapredict|syscation|infosupports|arrowservice|bigdepression|earthsolution|firefoxupdata|infobusinessus|yahoodaily|newsonet|worthhummer|purpledaily|blackcake|msnhome)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg6
+/^(.*\.)*(inmobicdn|jizzads|leadbolt|nexage|milleniamedia|mobfox|mobilityware|newrelic|propellerads|revd(depo|sci)|segment|serving-sys|sharethis|startapp|steelhousemedia|tapjoy|viglink|webterren|adtaily|zedo|liadm|exposebox|jazdoxthxiv|jwmwtcmexc|thetradedesk||rocketfuel|ignitionone|komoot|squarelovin|cookiebot)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg7
+/^(.*\.)*(aatkit|abtasty|acce(ngage|sstrade)|adtec(h|jp|us)|anthill|atdmt|avazutracking|bfmino|bounceexchange|branch|clever(push|tap)|conviva|crittercism|cxense|deltadna|duapps|fractionalmedia|fyber|hyprmx|justpremium|lijit|mobileapptracking|ogury|omniture|presage|tapad|pubmatic|pushwoosh|qq|servedbyopenx|supersoni(c|cads)|swrve|webtrekk|aimatch|sas)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg8
+/^(.*\.)*(actioniq|hs-(analytics|banner)|hsleadflows|hubspot|agileone|bizible|crazyegg|acquia|wistia|engagio|lytics|am15|bannerbank|bbelements|bravenet|cedexis-radar|crypto-loot|economicoutlook|esomniture|estat|extreme-dm|ezcybersearch|fastclick|focalink|gemius|hyperbanner|iovation|kaffnet|yieldlove|histats|forsee)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg9
+/^(.*\.)*(indexww|yieldlove-ad-serving|xplosion|digitru|upapi|spotxchange|permutive|onesignal|usabilla|contextweb|ml314|afcpatrk|(klclick[0-9])|aidata|hybrid|deployads|perfectaudience|liveramp|didomi|etahub|giraff|hurra|sizmek|nativo|djaxadserver|webmasterplan|ggpht|zanox|audrte|agkn|dataxu|scarabresearch|ekomi)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg10
+/^(.*\.)*(apsalar|tune|qualtrics|neustar|webtrends|linksynergy|backtrace|doubleverify|ligatus|a4|rayjump|umeng|umengcloud|wootric|medialytics|herokuapp|yllix|mobpartner|combango|bugsense|burstly|count|crashlytics|do-not-tracker|eviltracker|getexceptional|jumptap|playtomic|stathat|163|206ads|2mdnsys|360in|4seeresults|accesstrade|ads[0-9]-adnow|pop(ads|cash)|popadscdn)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg11
+/^(.*\.)*(urekamedia|kochava|upsight|marfeel(cache|cdn|rev|tenmax)|blueseed|adx[0-9]|zucks|o-s|aralego|breaktime|mdotm|juicer|cnt|ematicsolutions|alcmpn|powerlinks|33across|1rx|bfmio|bnmla|doublepimp|weborama|specific(click|media)|acuityplatform|cnnx|scanscout|nxtck|socdm|simpleanalytics|gumgum|marketolive|demandbase|izooto|ibillboard)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg12
+/^(.*\.)*(invitemedia|microad|ardata|152media|exoclick|doublemax|wywy|navdmp|trafficstars|pubexchange|vdopia|lsosad|aaxads|mantisadnetwork|triplelift|trafficfactory|themoneytizer|insurads|proads|pxlad|flux-adserve|eclick|vcmedia|nova(net|onads|on|nox)|coccoc|polyad|cleverads|ambient-platform|mangoads|cityads|autoads|yoads)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg13
+/^(.*\.)*(oewabox|metriweb|caramb(o|ola)|refinedads|klaviyo|a-mo|fieldtest|justuno|smartredirect|ezoic|statscrop|optinmonster|nr-data|avocet|bttrack|eyeota|jetlore|1up|abmr|acxiom-online|mlnadvertising|amgdgt|askmen|bam-x|bidr|bluecava|brand-display|brilig|ccgateway|channelintelligence|choicestream|clickagy|cognitivlabs|collective-media)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg14
+/^(.*\.)*(company-target|crosspixel|crsspxl|decdna|decideinteractive|disqus|emxdgt|extremetech|eyeviewads|btbuckets|fetchback|fimserve|freeskreen|gmads|gwallet|hlserve|imiclk|innovid|insidecrm|intentmedia|interclick|ipr(edictive|omote)|iqm|kargo|knorex|lkqd|logicbuy|marchex|media6degrees|mediaforge|mediaiqdigital|mixpo|mmismm|numberly|1000mercis)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg15
+/^(.*\.)*(mxptint|ncaudienceexchange|net(mng|seer)|owneriq|parrable|pm14|postrelease|pro-market|raasnet|retargetly|revsci|rfihub|rkdms|ru4|samba|semasio|sojern|udmserve|unrulymedia|vindicosuite|vmmpxl|vmweb|wsod|xad|xgraph|yieldmo|yieldoptimizer|youknowbest|zemanta|skimlinks|ipromote|lotame|contentsquare|matomo|piwik|roq|emerse|widespace)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg16
+/^(.*\.)*(nrich|rtbhouse|sovrn|beeswax|indexexchange|c3metrics|contactimpact|1plusx|semrush|improvedigital|xandr|madvertise|neural|rhythmone|inskinmedia|jivox|gsi-one|celtra|tapfiliate|req|moburst|webmechanix|divisionoflabor|commcreative|metrictheory|gkv|periscope|yieldbranding|gumas|fivebyfiveglobal|williamswhittle|baycreative|milleradagency)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg17
+/^(.*\.)*(farinella|wearesculpt|neonambition|envision-creative|tronviggroup|databricks|gotomarketers|maxaudience|perfectsearchmedia|titangrowth|3mediaweb|directom|seobrand|disruptiveadvertising|bigleap|silverbackstrategies|ignitevisibility|thriveagency|webfx|seoinc|socialseo|frac|klientboost|avalaunchmedia|siegemedia|straightnorth|gulosolutions|grafik)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg18
+/^(.*\.)*(thestorywebs|directiveconsulting|pbjmarketing|befoundonline|walkersandsdigital|firebellymarketing|comradeweb|contentbureau|hanapinmarketing|fruition|digitalbrandexpressions|noblestudios|thoughtspot|collibra|erne|uimserv|belboon)\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg19
+/^(.*\.)*(app(boy|next|adhoc|celerator|ier|odeal|lovin|nexus|sflyer|boy|brain|ier|lvn|spot|timize|see|ads|lifier|lift|logrocket|-measurement|topia))\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg20
+/^(.*\.)*(ad(j|skeeper|dtoany|vertica|true|vertnative|pushup|media|master|ledge|kernel|kmob|future|bro|booth|ap|apt|4game|just|telligent|4mat|tng|alliance|link|marketplace|[0-9]|adapted|acado|alliance|alyser|brite|bureau|and|blade|brodealsnetwork|spirit|epom|lightning|plugg|glare|speed|butler|x|roll|port|river|srvr|advisor|symptotic|dthis|rtx|scale))\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg21
+/^(.*\.)*(ad(smogo|target|infuse|conversantmedia|now|view|ups|tim(a|aserver|ming)|srv|spruce|see|same|sniper|smoloco|shot|skeeper|x1|tdp|hese|lightning|micro|entifi|ventori|worx|zerk|roll|safeprotected|this|colony|tech[a-z]{1,2}|dthisedge|looxtracking|vertising|nxs|(ds|s)wizz|omik|k2x|k2|ition|this|form|ocean|protect|science|tlgc|vertserve|thrive))\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg22
+/^(.*\.)*(ad(netasia|clixx|hacker|xcorp|vergine|optimize|grx|sfactor|snative|op|high|xxx|schoom|recover|spsp|safety|marvel|brix|servme|flex|rcdn|maym|pone|xadserv|up-tech|timaserver|network|tima|360|pia|sota|splay|sparc|legend|chemy|haven|ready|viva|gear|ikteev|dapptr|defend|ventureppc))\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg23
+/^(.*\.)*(ad-(balancer|brix|center|cloud|delivery|delivery|locus|maven|move|plus|score|srv|stir))\.([a-z]{2,3}\.)*[a-z]{2,6}$/ ! Mega-reg24
