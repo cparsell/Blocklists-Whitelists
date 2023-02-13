@@ -1,0 +1,443 @@
+grant.rewards.brave.com
+api.rewards.brave.com
+geo.ads.brave.com
+static.ads.brave.com
+variations.brave.com
+nrdp.prod.cloud.netflix.com
+gsp-ssl-commute.ls.apple.com
+ims-prod06.adobelogin.com
+cc-api-data.adobe.io
+crlog-crcn.adobe.com
+*.adobe.com
+*.aws.adobess.com
+*.adobe.io
+*.adobelogin.com
+gsp64-ssl.ls.apple.com
+berkeley.zoom.us
+d1gy1f7w9b4hn8.cloudfront.net
+binance.us
+www.binance.us
+binance.com
+edge-chat.instagram.com
+sheets.googleapies.com
+oauth2.googleapis.com
+malc0de.com
+doc-14-0k-docs.googleusercontent.com
+googleusercontent.com
+www.userbenchmark.com # cpu benchmark
+spectrum.s3.amazonaws.com
+docs.qmk.fm
+qmk.fm
+translate-pa.googleapis.com # Google Translate hopefully
+ssl.p.jwpcdn.com
+images.emb-api.com
+target.aws.amazon.com
+xhamster.com
+www.xhamster.com
+youporn.com
+www.youporn.com
+porntube.com
+www.porntube.com
+www.pornhub.com
+pornhub.com
+imgur.com
+www.imgur.com
+openwall.com
+www.openwall.com
+twimg.com #Twitter image handling?
+s3.amazonaws.com
+s3-1.amazonaws.com # CNAME for (s3.amazonaws.com)
+.github.com
+.githubusercontent.com
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+.gitlab.com
+.sourceforge.net
+google.com
+www.google.com
+youtube.com
+www.youtube.com
+youtube-ui.l.google.com # CNAME for (youtube.com)
+stackoverflow.com
+www.stackoverflow.com
+dropbox.com
+www.dropbox.com
+www.dropbox-dns.com # CNAME for (dropbox.com)
+control.kochava.com
+secure-gl.imrworldwide.com
+pbs.twimg.com # twitter images
+www.pbs.twimg.com # twitter images
+cs196.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+cs2-wac.apr-8315.edgecastdns.net # CNAME for (pbs.twimg.com)
+cs2-wac-us.8315.ecdns.net # CNAME for (pbs.twimg.com)
+cs45.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+www.fonts.gstatic.com
+www.reddit.com # Reddit
+reddit.com # Reddit
+styles.redditmedia.com # Reddit
+www.redditmedia.com # Reddit
+reddit-uploaded-media.s3-accelerate.amazonaws.com # Reddit
+reddit.map.fastly.net
+images-na.ssl-images-amazon.com
+video-stats.l.google.com
+v.firebog.net
+gstaticadssl.l.google.com # Google Fonts
+s.youtube.com
+dualstack.reddit.map.fastly.net # CNAME for (alb.reddit.com)
+www.bit.ly
+bit.ly
+ow.ly
+tinyurl.com
+s.shopify.com
+play.googleapis.com
+www.play.googleapis.com
+amazonaws.com
+dev.virtualearth.net
+dl.delivery.mp.microsoft.com # Windows STore
+sls.update.microsoft.com.akadns.net # Windows 10 Update
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Windows 10 Update
+tlu.dl.delivery.mp.microsoft.com # Windows 10 Update
+dl.dropbox.com
+dl.dropboxusercontent.com # Dropbox
+ns1.dropbox.com # Dropbox
+ns2.dropbox.com # Dropbox
+giphy.com
+github.com
+github.io
+googleapis.com
+gstatic.comhls.ted.com
+i.ytimg.com
+i1.ytimg.com
+imagesak.secureserver.net
+img.vidible.tv
+imgix.net
+imgs.xkcd.com
+instantmessaging-pa.googleapis.com
+jquery.com
+jsdelivr.net
+manifest.googlevideo.com
+raw.githubusercontent.com
+redirector.googlevideo.com
+s2.youtube.com
+youtu.be
+yt3.ggpht.com
+gfwsl.geforce.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+instagram.com
+www.instagram.com
+geo-p42.instagram.com # CNAME for (instagram.com)
+z-p42-instagram.c10r.instagram.com # CNAME for (instagram.com)
+oauthaccountmanager.googleapis.com
+www.oauthaccountmanager.googleapis.com
+youtubei.googleapis.com
+www.youtubei.googleapis.com
+notifications-pa.googleapis.com
+www.notifications-pa.googleapis.com
+i.instagram.com
+www.i.instagram.com
+geo.instagram.com # CNAME for (i.instagram.com)
+instagram.c10r.instagram.com # CNAME for (i.instagram.com)
+traffic.libsyn.com
+www.traffic.libsyn.com
+goo.gl
+googlemail.l.google.com
+www.googlemail.l.google.com
+mail-attachment.googleusercontent.com
+www.mail-attachment.googleusercontent.com
+drive-thirdparty.googleusercontent.com
+www.drive-thirdparty.googleusercontent.com
+maps.googleapis.com
+translate.googleapis.com
+fonts.googleapis.com
+www.fonts.googleapis.com
+ci5.googleusercontent.com
+ci3.googleusercontent.com
+ci6.googleusercontent.com
+ci4.googleusercontent.com
+coinbase.com # Coinbase
+events-service.coinbase.com # Coinbase
+www.events-service.coinbase.com # Coinbase
+spclient.wg.spotify.com # Spotify
+apresolve.spotify.com # Spotify
+api-tv.spotify.com # Spotify on TVs
+hulu.com
+www.hulu.com
+chaturbate.com
+www.chaturbate.com
+p.imgur.com
+www.p.imgur.com
+ipv4.imgur.map.fastly.net # CNAME for (t.imgur.com)
+t.imgur.com
+www.t.imgur.com
+nordvpn.nanorep.co
+www.nordvpn.nanorep.co
+eu1-1.nanorep.co # CNAME for (nordvpn.nanorep.co)
+traffic.megaphone.fm
+www.traffic.megaphone.fm
+use.typekit.net
+www.use.typekit.net
+ws.coinbase.com
+www.ws.coinbase.com
+api.coinbase.com
+exceptions.coinbase.com
+r5---sn-a5mlrn7z.googlevideo.com
+www.r5---sn-a5mlrn7z.googlevideo.com
+attservicesinc.tt.omtrdc.net
+www.attservicesinc.tt.omtrdc.net
+mediaeastv3.inq.com
+www.mediaeastv3.inq.com
+thepiratebay.org
+www.thepiratebay.org
+redirect.viglink.com
+www.redirect.viglink.com
+redirect-1966248761.us-west-2.elb.amazonaws.com # CNAME for (redirect.viglink.com)
+amzn.to
+www.amzn.to
+r6---sn-a5mlrn7d.googlevideo.com
+www.r6---sn-a5mlrn7d.googlevideo.com
+r6.sn-a5mlrn7d.googlevideo.com # CNAME for (r6---sn-a5mlrn7d.googlevideo.com)
+r2---sn-a5mlrn7d.googlevideo.com
+www.r2---sn-a5mlrn7d.googlevideo.com
+r2.sn-a5mlrn7d.googlevideo.com # CNAME for (r2---sn-a5mlrn7d.googlevideo.com)
+ipinfo.io
+www.ipinfo.io
+content-dictionaryextension-pa.googleapis.com
+www.content-dictionaryextension-pa.googleapis.com
+ajax.googleapis.com
+www.ajax.googleapis.com
+reminders-pa.googleapis.com
+firestore.googleapis.com
+googleapis.l.google.com # Gmail
+dl.google.com # Google Chrome
+traffic.omny.fm
+www.traffic.omny.fm
+elasticsearch.mktoweb.com
+www.elasticsearch.mktoweb.com
+lon02.mktossl.com # CNAME for (elasticsearch.mktoweb.com)
+clients2.googleusercontent.com
+www.clients2.googleusercontent.com
+lh4.googleusercontent.com
+www.lh4.googleusercontent.com
+www-gmi-opensocial.googleusercontent.com
+www.www-gmi-opensocial.googleusercontent.com
+www.apidata.googleusercontent.com
+widget-mediator.zopim.com
+www.widget-mediator.zopim.com
+paypal.com
+www.paypal.com
+www.glb.paypal.com # CNAME for (paypal.com)
+www-fastly.glb.paypal.com # CNAME for (paypal.com)
+www.ups.inq.com
+t.co
+www.t.co
+triggers.wfxtriggers.com
+www.triggers.wfxtriggers.com
+triggers-west.wfxtriggers.com # CNAME for (triggers.wfxtriggers.com)
+cloudsearch.googleapis.com
+www.cloudsearch.googleapis.com
+cloudidentity.googleapis.com
+www.cloudidentity.googleapis.com
+growth-pa.googleapis.com
+www.growth-pa.googleapis.com
+lh3.googleusercontent.com
+device-provisioning.googleapis.com
+people-pa.googleapis.com
+appsitemsuggest-pa.googleapis.com
+peoplestack-pa.googleapis.com
+gumroad.com
+www.gumroad.com
+doc-0g-4k-docs.googleusercontent.com
+www.doc-0g-4k-docs.googleusercontent.com
+doc-0c-10-docs.googleusercontent.com
+googlehosted.l.googleusercontent.com # CNAME for (doc-0g-4k-docs.googleusercontent.com)
+doc-0o-a0-docs.googleusercontent.com
+gsp10-ssl.ls-apple.com.akadns.net
+cdnjs.cloudflare.com
+c.evidon.com
+assets.adobedtm.com
+earth-pa.googleapis.com
+firebaseinstallations.googleapis.com
+zpns.zoom.us
+doc-0s-1c-docs.googleusercontent.com
+xp.apple.com
+captive.apple.com
+gsp1.apple.com
+www.apple.com
+www.appleiphonecell.com
+chtbl.com # Apple podcast ?
+www.chtbl.com # Apple Podcast ?
+.apple.com
+appleid.apple.com
+albert.apple.com
+gs.apple.com
+humb.apple.com
+static.ips.apple.com
+tbsc.apple.com
+time-ios.apple.com
+time.apple.com
+appldnld.apple.com
+gg.apple.com
+gnf-mdn.apple.com
+gnf-mr.apple.com
+ig.apple.com
+mesu.apple.com
+ns.itunes.apple.com
+oscdn.apple.com
+osrecovery.apple.com
+skl.apple.com
+swcdn.apple.com
+swdist.apple.com
+swdownload.apple.com
+swpost.apple.com
+swscan.apple.com
+updates-http.cdn-apple.com
+updates.cdn-apple.com
+xp.apple.com ppq.apple.com
+lcdn-registration.apple.com
+crl.apple.com
+crl.entrust.net
+crl3.digicert.com
+crl4.digicert.com
+ocsp.apple.com
+ocsp.digicert.com
+ocsp.entrust.net
+ocsp.verisign.net
+gdmf.apple.com
+deviceenrollment.apple.com
+deviceservices-external.apple.com
+identity.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+setup.icloud.com
+vpp.itunes.apple.com
+itunes.apple.com # iTunes or Apple Music
+s.mzstatic.com # Apple Music
+gsp-ssl.ls.apple.com # iOS Weather App
+gsp-ssl.ls-apple.com.akadns.net # iOS Weather App
+plex.tv
+tvdb2.plex.tv
+pubsub.plex.bz
+proxy.plex.bz
+proxy02.pop.ord.plex.bz
+cpms.spop10.ams.plex.bz
+meta-db-worker02.pop.ric.plex.bz
+meta.plex.bz tvthemes.plexapp.com.cdn.cloudflare.net
+tvthemes.plexapp.com
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
+meta.plex.tv
+cpms35.spop10.ams.plex.bz
+proxy.plex.tv
+metrics.plex.tv
+pubsub.plex.tv
+status.plex.tv
+www.plex.tv
+node.plexapp.com
+nine.plugins.plexapp.com
+staging.plex.tv
+app.plex.tv
+o1.email.plex.tv
+o2.sg0.plex.tv
+dashboard.plex.tv
+gravatar.com # used by Plex for pictures
+thetvdb.com # Plex for tv series metadata
+themoviedb.com # Plex for movies metadata
+api.segment.io
+www.api.segment.io
+aka.ms
+www.aka.ms
+tracking.exposed
+www.tracking.exposed
+mandrillapp.com
+www.mandrillapp.com
+us.info.lgsmartad.com # Maybe necessary for App Store on LG TV
+aic.service.lgtvcommon.com
+us.lgtvsdp.com
+www.us.lgtvsdp.com
+us-lgtvsdp-com.aws-prd.net # CNAME for (us.lgtvsdp.com)
+collector.unsplash.com
+www.collector.unsplash.com
+unsplash-sp-scala-stream-collector.eba-xnrpnw7e.us-east-1.elasticbeanstalk.com # CNAME for (collector.unsplash.com)
+cws-hulu.conviva.com
+www.cws-hulu.conviva.com
+cws.conviva.com # CNAME for (cws-hulu.conviva.com)
+cws-usw1.conviva.com # CNAME for (cws-hulu.conviva.com)
+cws-iad1.conviva.com # CNAME for (cws-hulu.conviva.com)
+ads-fa-darwin.hulustream.com
+www.ads-fa-darwin.hulustream.com
+vods.hulu.map.fastly.net # CNAME for (ads-fa-darwin.hulustream.com)
+us.lgrecommends.lgappstv.com
+www.us.lgrecommends.lgappstv.com
+us-lgrecommends-lgappstv-com.aws-prd.net # CNAME for (us.lgrecommends.lgappstv.com)
+ngfts.lge.com
+www.ngfts.lge.com
+ngfts.lge.com.edgekey.net # CNAME for (ngfts.lge.com)
+e6114.e21.akamaiedge.net # CNAME for (aic-ngfts.lge.com)
+aic-ngfts.lge.com
+www.aic-ngfts.lge.com
+aic-ngfts.lge.com.edgekey.net # CNAME for (aic-ngfts.lge.com)
+ud-chat.signal.org # Signal
+chat.signal.org # Signal
+storage.signal.org # Signal
+signal.org # Signal
+www.signal.org # Signal
+updates2.signal.org # Signal
+textsecure-service-whispersystems.org # Signal
+giphy-proxy-production.whispersystems.org # Signal
+cdn.signal.org # Signal
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com # Signal
+d83eunklitikj.cloudfront.net # Signal
+souqcdn.com # Signal
+cms.souqcdn.com # Signal
+api.directory.signal.org # Signal
+contentproxy.signal.org # Signal
+turn1.whispersystems.org # Signal
+upload.twitter.com # Twitter
+api.twitter.com # Twitter
+mobile.twitter.com # Twitter
+ott-lgtv.tubitv.com
+www.ott-lgtv.tubitv.com
+lb.production-public.tubi.io # CNAME for (ott-lgtv.tubitv.com)
+mirc.com
+www.mirc.com
+ext-sq.squarespace.com
+www.ext-sq.squarespace.com
+dailymail.co.uk
+www.dailymail.co.uk
+www.dailymail.co.uk.edgekey.net # CNAME for (dailymail.co.uk)
+e5826.dscb.akamaiedge.net # CNAME for (dailymail.co.uk)
+mediafire.com
+www.mediafire.com
+i0.wp.com
+www.i0.wp.com
+p.typekit.net
+www.p.typekit.net
+p.typekit.net-stls-v3.edgesuite.net # CNAME for (p.typekit.net)
+a1874.dscg1.akamai.net # CNAME for (p.typekit.net)
+tumblr.com
+www.tumblr.com
+adamandeve.com
+www.adamandeve.com
+adameve.com
+www.adameve.com
+www.adameve.com.edgekey.net # CNAME for (adameve.com)
+e13104.b.akamaiedge.net # CNAME for (adameve.com)
+us.lgtvlink.com
+www.us.lgtvlink.com
+webostv.developer.lge.com
+www.webostv.developer.lge.com
+lg-sw-business-pmo.netlifyglobalcdn.com # CNAME for (webostv.developer.lge.com)
+audible.sc.omtrdc.net
+www.audible.sc.omtrdc.net
+login.yahoo.com
+www.login.yahoo.com
+ds-ats.member.g02.yahoodns.net # CNAME for (login.yahoo.com)
+grainger.com
+www.grainger.com
+duckduckgo.com
+www.duckduckgo.com
+amazon.com
+www.amazon.com
