@@ -345,7 +345,6 @@ dashboard.plex.tv
 gravatar.com # used by Plex for pictures
 thetvdb.com # Plex for tv series metadata
 themoviedb.com # Plex for movies metadata
-api.segment.io
 www.api.segment.io
 aka.ms
 www.aka.ms
