@@ -63,7 +63,6 @@ double-{0,}clic(k|k[.]*by-{0,}google)\.[a-z]{2,7}$
 (^|\.)treasuredata\.com$
 (^|\.)unity(|3d)\.com$
 (^|\.)unityads(|\.co)\.com$
-# LG
 .*lg.*ad\.\w+
 lgad.*
 (^|\.)ibs\.lgappstv\.com
@@ -71,7 +70,6 @@ lgad.*
 (^|\.)smartshare\.lgtvsdp\.com
 (^|\.)rdx2\.lgtvsdp\.com
 ^[a-z]{11,15}$
-# Samsung
 (^|\.)giraffic\.com$
 (^|\.)internetat\.tv$
 (^|\.)pavv\.co\.kr$
