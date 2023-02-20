@@ -9,9 +9,9 @@
 # not *.adobe.com
 import subprocess
 
-whitelist_file='regex-nocomments.txt'
+regex_file='regex-nocomments.txt'
 container="cccefea9fcca" # replace with your Pihole's container ID 
 
-with open(whitelist_file) as whitelist:
-  for line in whitelist:
-    subprocess.run(["docker", "exec", "-it", container, "pihole", "-w", line])
+with open(regex_file) as regex:
+  for line in regex:
+    subprocess.run(["docker", "exec", "-it", container, "pihole", "--regex", line])
