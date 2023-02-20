@@ -8,10 +8,10 @@ gsp-ssl-commute.ls.apple.com
 ims-prod06.adobelogin.com
 cc-api-data.adobe.io
 crlog-crcn.adobe.com
-*.adobe.com
-*.aws.adobess.com
-*.adobe.io
-*.adobelogin.com
+adobe.com
+aws.adobess.com
+adobe.io
+adobelogin.com
 gsp64-ssl.ls.apple.com
 berkeley.zoom.us
 d1gy1f7w9b4hn8.cloudfront.net
@@ -47,11 +47,11 @@ www.openwall.com
 twimg.com
 s3.amazonaws.com
 s3-1.amazonaws.com
-.github.com
-.githubusercontent.com
+github.com
+githubusercontent.com
 github.map.fastly.net
-.gitlab.com
-.sourceforge.net
+gitlab.com
+sourceforge.net
 google.com
 www.google.com
 youtube.com
@@ -270,7 +270,7 @@ www.apple.com
 www.appleiphonecell.com
 chtbl.com
 www.chtbl.com
-.apple.com
+apple.com
 appleid.apple.com
 albert.apple.com
 gs.apple.com
@@ -296,7 +296,8 @@ swpost.apple.com
 swscan.apple.com
 updates-http.cdn-apple.com
 updates.cdn-apple.com
-xp.apple.com ppq.apple.com
+xp.apple.com
+ppq.apple.com
 lcdn-registration.apple.com
 crl.apple.com
 crl.entrust.net
@@ -325,7 +326,8 @@ proxy.plex.bz
 proxy02.pop.ord.plex.bz
 cpms.spop10.ams.plex.bz
 meta-db-worker02.pop.ric.plex.bz
-meta.plex.bz tvthemes.plexapp.com.cdn.cloudflare.net
+meta.plex.bz
+tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com
 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
 meta.plex.tv
@@ -386,9 +388,9 @@ www.signal.org
 updates2.signal.org
 textsecure-service-whispersystems.org
 giphy-proxy-production.whispersystems.org
-cdn.signal.org 
+cdn.signal.org
 whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
-d83eunklitikj.cloudfront.net 
+d83eunklitikj.cloudfront.net
 souqcdn.com
 cms.souqcdn.com
 api.directory.signal.org
@@ -399,7 +401,7 @@ api.twitter.com
 mobile.twitter.com
 ott-lgtv.tubitv.com
 www.ott-lgtv.tubitv.com
-lb.production-public.tubi.io 
+lb.production-public.tubi.io
 mirc.com
 www.mirc.com
 ext-sq.squarespace.com
@@ -407,7 +409,7 @@ www.ext-sq.squarespace.com
 dailymail.co.uk
 www.dailymail.co.uk
 www.dailymail.co.uk.edgekey.net
-e5826.dscb.akamaiedge.net 
+e5826.dscb.akamaiedge.net
 mediafire.com
 www.mediafire.com
 i0.wp.com
@@ -428,7 +430,7 @@ us.lgtvlink.com
 www.us.lgtvlink.com
 webostv.developer.lge.com
 www.webostv.developer.lge.com
-lg-sw-business-pmo.netlifyglobalcdn.com 
+lg-sw-business-pmo.netlifyglobalcdn.com
 audible.sc.omtrdc.net
 www.audible.sc.omtrdc.net
 login.yahoo.com
