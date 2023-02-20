@@ -29,7 +29,7 @@
 /([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
 /([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
 /([A-Za-z0-9.-]*\.)?match\.com/
-/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2,4})/
 /([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
 /([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
 /([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
