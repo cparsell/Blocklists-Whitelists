@@ -1,6 +1,9 @@
 ﻿## Blocklists-Whitelists
  
- This is a repository of my own custom lists that I'm using with pfBlockerNG (for pfSense). Some lists might also be useful for Pihole.
+ This is a reference repository for web filtering (ads, tracking, etc). The files listed are some lists I've made - they are specific to things I've either blocked or whitelisted so they will not work perfectly for you but they might be a place to start.
+
+ ### Whitelist
+ The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pihole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pihole. 
  
  ### Hosts lists (Pihole, Adguard Home, and PfBlockerNG compatible)
 Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for pfSense), AdGuard Home, as well as browser-based filtering like Brave Browser or Adguard extension. So I've included lists of different formats. 
@@ -11,7 +14,8 @@ Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for p
 > www.pixel.ad
 Both of these ways are used in hosts lists. They both should be able to be interpretted by DNS blockers.
 
-Brave Browser's built-in adblocker, AdBlock Plus, and the AdGuard browser extension are able to filter content within pages as they are being loaded. So lists for these are based on patterns in websites themselves.
+### Why I use a browser-based blocker as well
+Brave Browser's built-in adblocker, AdBlock Plus, and the AdGuard browser extension are able to filter content within webpages themselves as they are being loaded. So lists for these are based on patterns in websites themselves. This means it can block annoying cookie messages or popups telling you that you are using and adblocker. For this reason, I use a DNS blocker and a browser-based blocker. 
 
 > .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 >
