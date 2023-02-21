@@ -61,7 +61,6 @@ stackoverflow.com
 www.stackoverflow.com
 dropbox.com
 www.dropbox.com
-www.dropbox-dns.com # CNAME for (dropbox.com)
 control.kochava.com
 secure-gl.imrworldwide.com
 pbs.twimg.com # twitter images
