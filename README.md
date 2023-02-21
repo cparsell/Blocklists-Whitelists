@@ -64,6 +64,9 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 - https://easylist-downloads.adblockplus.org/antiadblockfilters.txt # Adblock Warning Removal List specifically removes obtrusive messages and warnings targeted to users who use an adblocker.
 - https://raw.githubusercontent.com/YanFung/Ads/master/Mobile   # Mobile Ads - does have some domains so it might be useable with DNS blockers
 
+### IP Block Lists
+- https://public-dns.info/nameservers.txt # Public DNS servers
+- https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall_ipv4 # DoH Great Wall IP list
  
  ### NoVPN list
  The NoVPN list is a list I've made for carving out exceptions for streaming services that don't allow VPN connections. At one time, I experimented with having my entire network tunnel through a VPN (eg. Mullvad or NordVPN) in pfSense so I've created rules that allow certain domains to bypass the VPN, allowing Amazon Prime Video, Hulu, etc. to keep working. 
