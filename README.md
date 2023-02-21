@@ -10,7 +10,9 @@ Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for p
 Brave Browser's built-in adblocker, AdBlock Plus, and the AdGuard browser extension are able to filter content within pages as they are being loaded. So lists for these are based on patterns in websites themselves.
 
 > .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
+>
 > /ad_display.
+>
 > /banners/ads/*
 
 These are typical of these kind of filtering rule lists. These are not compatible with Pihole, PfBlockerNG, or AdGuard Home (DNS blockers).
