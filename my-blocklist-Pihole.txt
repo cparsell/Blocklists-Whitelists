@@ -6,7 +6,6 @@ ims-prod06.adobelogin.com
 ups.inq.com
 api.us-east-1.aiv-delivery.net
 videodirect.amazon.com
-
 metrics.apple.com
 metrics.icloud.com
 # begin AMAZON
