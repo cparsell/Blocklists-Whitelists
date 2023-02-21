@@ -65,10 +65,10 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 - https://raw.githubusercontent.com/YanFung/Ads/master/Mobile   # Mobile Ads - does have some domains so it might be useable with DNS blockers
 
  
- ### NoVPN
- The NoVPN list is a list I've developed for streaming services that don't allow VPN connections.  My entire network is connected to a VPN in pfSense so I've created rules that allow certain domains to bypass the VPN, allowing Amazon Prime Video, Hulu, etc. to keep working. 
+ ### NoVPN list
+ The NoVPN list is a list I've made for carving out exceptions for streaming services that don't allow VPN connections. At one time, I experimented with having my entire network tunnel through a VPN (eg. Mullvad or NordVPN) in pfSense so I've created rules that allow certain domains to bypass the VPN, allowing Amazon Prime Video, Hulu, etc. to keep working. 
  
- Amazon Prime is the most annoying about this because anytime you load the site, it connects to an unnecessary number of servers and if, to any of those servers, your IP is the VPN's, "sorry you're connected using a VPN you can't watch shit". The IP addresses of these many servers change CONSTANTLY So I usually have to run PfBlockerNG's Update > IP before I watch Amazon Prime Video. This is annoying but I don't watch things on Prime that much so fuck them. 
+ Amazon Prime is the most annoying about this because anytime you load the site, it connects to an unnecessary number of servers and if, to any of those servers, your IP is the VPN's, "sorry you're connected using a VPN you can't watch shit". The IP addresses of these many servers change CONSTANTLY So I usually have to run PfBlockerNG's Update > IP before I watch Amazon Prime Video. This is annoying but I don't watch much on Prime that much so fuck them. I also don't tunnel all of my traffic through a VPN anymore. But if you do, and you want to stream TV, try this.
  
 
 To add the list, go to pfBlockerNG > IP > IPv4. 
@@ -87,6 +87,24 @@ Then create a rule in your LAN rules (or whichever interface is appropriate):
 - destination "single host or alias" "pfB_NoVPN_v4" should be what it is called, 
 - Advanced Options > Gateway to "whatever your WAN gateway is called".
 
+### Creating an exception for Netflix
+This can be done in a similar fashion as with Amazon but no custom list is needed. Netflix has their own IP Block, AS2906.
+- Go to pfBlockerNG > IP > IPv4. 
+- Add a new list whose action is "Alias Native". 
+- Format "Whois", Source "AS2906", header "Netflix"
+- Update once a day. 
+- Save
+
+- Go to PFBlockerNG > Update > Reload > IP. Now the Alias has been created.
+
+Then create a rule in your LAN rules (or whichever interface is appropriate):
+- action "pass"
+- protocol "any", 
+- source "any", 
+- destination "single host or alias" "pfB_Netflix_v4" should be what it is called, 
+- Advanced Options > Gateway to "whateer your WAN gateway is called".
+
+
 ## Amazon AWS
 It is also possible to create a bypass for all Amazon AWS IP addresses. I've experimented with using this but the NoVPN list is still most helpful for my purposes - streaming Prime Video.
 
@@ -99,5 +117,5 @@ Create a rule in LAN rules:
 - protocol "any", 
 - source "any", 
 - destination "single host or alias" "pfB_AmazonAWS_v4" should be what it is called. 
-- Advanced Options > Gateway to "whatever your WAN gateway is called". That should allow any AWS through your WAN without the VPN.
+- Advanced Options > Gateway to "whatever your WAN gateway is called". 
 - Save
