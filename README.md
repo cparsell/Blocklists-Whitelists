@@ -16,16 +16,17 @@ Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for p
 > www.pixel.ad
 Both of these ways are used in hosts lists. They both should be able to be interpretted by DNS blockers.
 
-### Why I use a browser-based blocker as well
-Brave Browser's built-in adblocker, AdBlock Plus, and the AdGuard browser extension are able to filter content within webpages themselves as they are being loaded. So lists for these are based on patterns in websites themselves. This means it can block annoying cookie messages or popups telling you that you are using and adblocker. For this reason, I use a DNS blocker and a browser-based blocker. 
+### Filter lists (browser-based)
+Browser-based adblockers are able to filter content *within webpages* as they are being loaded. So these are lists of patterns in websites themselves. This allows things like blocking annoying cookie messages or popups telling you that you are using and adblocker. For this reason, I use a browser-based blocker as well as a DNS blocker. Brave Browser's built-in adblocker, AdGuard browser extension, and AdBlock Plus are ones I've used.
 
+These are typical of these kind of filtering rule lists. These are not compatible with Pihole, PfBlockerNG, or AdGuard Home (DNS blockers):
 > .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 >
 > /ad_display.
 >
 > /banners/ads/*
 
-These are typical of these kind of filtering rule lists. These are not compatible with Pihole, PfBlockerNG, or AdGuard Home (DNS blockers).
+
 
 ### Lists of lists
 - [Firebog](https://firebog.net/)   # Adblocking, malicious site lists, tracking, etc.
