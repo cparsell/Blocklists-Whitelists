@@ -1,4 +1,4 @@
-﻿## Blocklists-Whitelists
+﻿## Blocklists-Whitelists 
  
  This is a reference repository for web filtering (ads, tracking, etc). The files listed are some lists I've made - they are specific to things I've either blocked or whitelisted so they will not work perfectly for you but they might be a place to start.
 
