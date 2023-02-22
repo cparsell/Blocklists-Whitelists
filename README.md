@@ -5,6 +5,8 @@
  ### Whitelist
  The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pihole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pihole. 
  
+## Types of blocklists
+
  ### Hosts lists (Pihole, Adguard Home, and PfBlockerNG compatible)
 Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for pfSense), AdGuard Home, as well as browser-based filtering like Brave Browser or Adguard extension. So I've included lists of different formats. 
 
