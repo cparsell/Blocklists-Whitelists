@@ -31,6 +31,7 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 ### Lists of lists
 - [Firebog](https://firebog.net/)   # Adblocking, malicious site lists, tracking, etc.
 - [Developer Dan](https://www.github.developerdan.com/hosts/)
+- [Developer Dan's blocklist search tool](https://blocklist-tools.developerdan.com/entries/search) - use to search for a domain name to see if it exists in any of the major blocklists out there
 - [Blocklist.site](https://blocklist.site/)
 - [OISD](https://oisd.nl/)
 - [Nocturnal Archives](https://github.com/nocturnalarchives/BlockLists) - some niche lists like Amazon blocklist, Netflix, a decent regex rule list
