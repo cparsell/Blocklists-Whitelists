@@ -104,3 +104,5 @@ lgad.*
 ^(.*\.)*(ad(smogo|target|infuse|conversantmedia|now|view|ups|tim(a|aserver|ming)|srv|spruce|see|same|sniper|smoloco|shot|skeeper|x1|tdp|hese|lightning|micro|entifi|ventori|worx|zerk|roll|safeprotected|this|colony|tech[a-z]{1,2}|dthisedge|looxtracking|vertising|nxs|(ds|s)wizz|omik|k2x|k2|ition|this|form|ocean|protect|science|tlgc|vertserve|thrive))\.([a-z]{2,3}\.)*[a-z]{2,6}$
 ^(.*\.)*(ad(netasia|clixx|hacker|xcorp|vergine|optimize|grx|sfactor|snative|op|high|xxx|schoom|recover|spsp|safety|marvel|brix|servme|flex|rcdn|maym|pone|xadserv|up-tech|timaserver|network|tima|360|pia|sota|splay|sparc|legend|chemy|haven|ready|viva|gear|ikteev|dapptr|defend|ventureppc))\.([a-z]{2,3}\.)*[a-z]{2,6}$
 ^(.*\.)*(ad-(balancer|brix|center|cloud|delivery|delivery|locus|maven|move|plus|score|srv|stir))\.([a-z]{2,3}\.)*[a-z]{2,6}$
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
+^mads\.
