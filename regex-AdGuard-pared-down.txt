@@ -41,108 +41,8 @@
 /([A-Za-z0-9.-]*\.)?[a-z]{2,7}\.footprintdns\.com/
 /([A-Za-z0-9.-]*\.)?fbsbx\.com/
 /^graph?[-.]/
+! 
 ! my custom AdGuard filters
-||graph.oculus.com^$important
-||edge-mqtt.facebook.com^$important
-||mobile.events.data.microsoft.com^$important
-||reddit-image.s3.amazonaws.com^$important
-||s.youtube.com^$important
-||ims-prod06.adobelogin.com^$important
-||ups.inq.com^$important
-||api.us-east-1.aiv-delivery.net^$important
-||videodirect.amazon.com^$important
-# apple-dns.net
-||metrics.apple.com^$important
-||metrics.icloud.com^$important
-# begin AMAZON
-||www.woot.com^$important
-||music.amazon.com^$important
-||www.acx.com^$important
-||ters.us-east-1.aiv-delivery.net^$important
-||us-west-2.telemetry.insights.video.a2z.com^$important
-||global.telemetry.insights.video.a2z.com^$important
-||o217231.ingest.sentry.io^$important
-||www.eastdane.com^$important
-||eastdane.com^$important
-||dpreview.com^$important
-||www.dpreview.com^$important
-||bookdepository.com^$important
-||www.bookdepository.com^$important
-||boxofficemojo.com^$important
-||amazon.jobs^$important
-||www.amazon.jobs^$important
-||www.alexa.com^$important
-||alexa.com^$important
-||acx.com^$important^$important
-||configuration.ls.apple.com^$important
-||www.zappos.com^$important
-||zappos.com^$important
-||www.pillpack.com^$important
-||pillpack.com^$important
-||www.shopbop.com^$important
-||shopbop.com^$important
-||www.6pm.com^$important
-||6pm.com^$important
-||shop.ring.com^$important
-||ring.com^$important
-||www.ring.com^$important
-||fabric.com^$important
-||www.fabric.com^$important
-||blinkforhome.com^$important
-||www.blinkforhome.com^$important
-||eero.com^$important
-||www.eero.com^$important
-||pharmacy.amazon.com^$important
-||abebooks.com^$important
-||www.abebooks.com^$important
-||e-msedge.net^$important
-||amazon.science^$important
-||developer.amazon.com^$important
-||aboutamazon.com^$important
-||www.aboutamazon.com^$important
-||blog.aboutamazon.com^$important
-||psdops.com^$important
-||blubrry.com^$important
-||media.blubrry.com^$important
-||edgesuite.net^$important
-||supply.amazon.com^$important
-||advertising.amazon.com
-!  Begin LG TV
-||aic-ngfts.lge.com^$important
-||us.rdx2.lgtvsdp.com^$important
-||us.info.lgsmartad.com^$important
-||us.ibs.lgappstv.com^$important
-||us.lgtvsdp.com^$important
-||ad.lgappstv.com^$important
-||smartshare.lgtvsdp.com^$important
-||ibis.lgappstv.com^$important
-||us.ad.lgsmartad.com^$important
-||lgad.cjpowercast.com.edgesuite.net^$important
-||lgsmartad.com^$important
-||rdx2.lgtvsdp.com^$important
-||info.lgsmartad.com^$important
-||ibs.lgappstv.com^$important
-||lgtvsdp.com^$important
-||lgappstv.com^$important
-||discovery.meethue.com
-||aic.recommend.lgtvcommon.com^$important
-||aic.nudge.lgtvcommon.com^$important
-||aic.netflixvoice.lgtvcommon.com^$important
-||aic.homeprv.lgtvcommon.com^$important
-||aic.cdpsvc.lgtvcommon.com^$important
-||aic.cdpbeacon.lgtvcommon.com^$important
-||prov-lg.alphonso.tv^$important
-||us.info.lgsmartad.com^$important
-||us.rdx2.lgtvsdp.com^$important
-||info.crowdsec.net^$important
-! ||edge-mqtt.facebook.com^$client='oculus',important
-! ||graph.oculus.com^$client='oculus',important
-! ||graph.facebook.com^$client='oculus',important
-||web.facebook.com^$important
-||www.facebook.com^$client='oculus'
-||graph.facebook-hardware.com^$important
-@@||someonewhocares.org^$important
-||api.segment.io^$important
 ! ||mask.icloud.com^$important
 ! ||mask-h2.icloud.com^$important
 ! ||mask.apple-dns.net^$important
@@ -152,4 +52,4 @@
 ||mqtt-mini.facebook.com^$important
 ||edge-chat.facebook.com.berkeley.edu^$important
 ! Maybe necessary for App Store on LG TV
-@@||us.info.lgsmartad.com
+||us.info.lgsmartad.com
