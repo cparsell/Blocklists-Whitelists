@@ -89,11 +89,9 @@
 ! ||edge-mqtt.facebook.com^$client='oculus',important
 ! ||graph.oculus.com^$client='oculus',important
 ! ||graph.facebook.com^$client='oculus',important
-@@||vrbangers.com^$important
 ||web.facebook.com^$important
 ||www.facebook.com^$client='oculus'
 ||graph.facebook-hardware.com^$important
-@@||someonewhocares.org^$important
 ||api.segment.io^$important
-
-
+||i.sng.link^$important
+||ctldl.windowsupdate.com^$important
