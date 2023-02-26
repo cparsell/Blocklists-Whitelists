@@ -60,7 +60,6 @@
 ||psdops.com^$important
 ||blubrry.com^$important
 ||media.blubrry.com^$important
-||edgesuite.net^$important
 ||supply.amazon.com^$important
 ||advertising.amazon.com
 !  Begin LG TV
