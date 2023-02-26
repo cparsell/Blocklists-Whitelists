@@ -1,3 +1,47 @@
+/^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]/
+/^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.]/
+/^(.+[-_.])??telemetry[-.]/
+/^adtrack(er|ing)?[0-9]*[-.]/
+/^advert(s|is(ing|ements?))?[0-9]*[-_.]/
+/^aff(iliat(es?|ion))?[-.]/
+/^analytics?[-.]/ 
+/^beacons?[0-9]*[-.]/ 
+/^count(ers?)?[0-9]*[-.]/
+/^(s)?stat(s|istics)?[0-9]*[-.]/
+/^track(ers?|ing)?[0-9]*[-.]/ 
+/^traff(ic)?[-.]/
+/google-{0,}(analytic|syndication|(ad[a-z0-9]*|tag)-{0,}service)[s]\.[a-z]{2,7}$/
+/google-{0,}(analytics{0,}|(ad|tag)manager)\.[a-z]{2,7}$/ 
+/double-{0,}clic(k|k[.]*by-{0,}google)\.[a-z]{2,7}$/
+/(google|partner|pub)-{0,}ads{0,}-{0,}\.[a-z]{2,7}$/ 
+/(/^|\.)fbsbx\.com\.online-metrix\.net$/
+/(/^|\.)m\.me$/
+/^(.+\.)?amp\..+\.com$/
+/^(.+\.)?ampproject\.org$/
+/^(.+\.)?amp\.cloudflare\.com$/
+/([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+/([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+/([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+/(/^|\.)lgsmartad\.com$/
+/(/^|\.)bugsnag\.com$/
+/(/^|\.)unity(|3d)\.com$/
+! LG
+/lgad.*/
+/(.+\.)ibs\.lgappstv\.com/ 
+/(.+\.)lgsmartad\.com/
+/(.+\.)smartshare\.lgtvsdp\.com/
+/(.+\.)rdx2\.lgtvsdp\.com/
+/^mads\./
+! my regex filters below
+/([A-Za-z0-9.-]*\.)?[a-z]{2,7}\.footprintdns\.com/
+/([A-Za-z0-9.-]*\.)?fbsbx\.com/
+/^graph?[-.]/
+! my custom AdGuard filters
 ||graph.oculus.com^$important
 ||edge-mqtt.facebook.com^$important
 ||mobile.events.data.microsoft.com^$important
@@ -64,24 +108,29 @@
 ||supply.amazon.com^$important
 ||advertising.amazon.com
 !  Begin LG TV
+||aic-ngfts.lge.com^$important
 ||us.rdx2.lgtvsdp.com^$important
 ||us.info.lgsmartad.com^$important
 ||us.ibs.lgappstv.com^$important
+||us.lgtvsdp.com^$important
+||ad.lgappstv.com^$important
+||smartshare.lgtvsdp.com^$important
+||ibis.lgappstv.com^$important
+||us.ad.lgsmartad.com^$important
+||lgad.cjpowercast.com.edgesuite.net^$important
+||lgsmartad.com^$important
+||rdx2.lgtvsdp.com^$important
 ||info.lgsmartad.com^$important
 ||ibs.lgappstv.com^$important
 ||lgtvsdp.com^$important
 ||lgappstv.com^$important
 ||discovery.meethue.com
-||nrdp.prod.cloud.netflix.com^$important
-||nrdp-ipv6.prod.ftl.netflix.com^$important
 ||aic.recommend.lgtvcommon.com^$important
 ||aic.nudge.lgtvcommon.com^$important
 ||aic.netflixvoice.lgtvcommon.com^$important
 ||aic.homeprv.lgtvcommon.com^$important
 ||aic.cdpsvc.lgtvcommon.com^$important
 ||aic.cdpbeacon.lgtvcommon.com^$important
-||bl-server.alphonso.tv^$important
-||clockskew.alphonso.tv^$important
 ||prov-lg.alphonso.tv^$important
 ||us.info.lgsmartad.com^$important
 ||us.rdx2.lgtvsdp.com^$important
@@ -89,11 +138,18 @@
 ! ||edge-mqtt.facebook.com^$client='oculus',important
 ! ||graph.oculus.com^$client='oculus',important
 ! ||graph.facebook.com^$client='oculus',important
-@@||vrbangers.com^$important
 ||web.facebook.com^$important
 ||www.facebook.com^$client='oculus'
 ||graph.facebook-hardware.com^$important
 @@||someonewhocares.org^$important
 ||api.segment.io^$important
-
-
+! ||mask.icloud.com^$important
+! ||mask-h2.icloud.com^$important
+! ||mask.apple-dns.net^$important
+@@||device-metrics-us-2.amazon.com^^$client='AppleTV',important
+||gateway.facebook.com.wintermute.lan^$important
+||web.facebook.com.wintermute.lan^$important
+||mqtt-mini.facebook.com^$important
+||edge-chat.facebook.com.berkeley.edu^$important
+! Maybe necessary for App Store on LG TV
+@@||us.info.lgsmartad.com

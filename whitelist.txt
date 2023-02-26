@@ -40,6 +40,7 @@ porntube.com
 www.porntube.com
 www.pornhub.com
 pornhub.com
+vrbangers.com
 imgur.com
 www.imgur.com
 openwall.com
@@ -47,41 +48,42 @@ www.openwall.com
 twimg.com #Twitter image handling?
 s3.amazonaws.com
 s3-1.amazonaws.com # CNAME for (s3.amazonaws.com)
-.github.com
-.githubusercontent.com
+github.com
+githubusercontent.com
 github.map.fastly.net # CNAME for (raw.githubusercontent.com)
-.gitlab.com
-.sourceforge.net
+gitlab.com
+sourceforge.net
 google.com
 www.google.com
 youtube.com
 www.youtube.com
-youtube-ui.l.google.com # CNAME for (youtube.com)
+youtube-ui.l.google.com
 stackoverflow.com
 www.stackoverflow.com
 dropbox.com
 www.dropbox.com
 control.kochava.com
 secure-gl.imrworldwide.com
-pbs.twimg.com # twitter images
-www.pbs.twimg.com # twitter images
+pbs.twimg.com
+www.pbs.twimg.com
 cs196.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
 cs2-wac.apr-8315.edgecastdns.net # CNAME for (pbs.twimg.com)
 cs2-wac-us.8315.ecdns.net # CNAME for (pbs.twimg.com)
 cs45.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
 www.fonts.gstatic.com
-www.reddit.com # Reddit
-reddit.com # Reddit
-styles.redditmedia.com # Reddit
-www.redditmedia.com # Reddit
-reddit-uploaded-media.s3-accelerate.amazonaws.com # Reddit
+ # Reddit begin
+www.reddit.com
+reddit.com
+styles.redditmedia.com
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com 
 reddit.map.fastly.net
+# Reddit end
 images-na.ssl-images-amazon.com
 video-stats.l.google.com
 v.firebog.net
 gstaticadssl.l.google.com # Google Fonts
-s.youtube.com
-dualstack.reddit.map.fastly.net # CNAME for (alb.reddit.com)
+dualstack.reddit.map.fastly.net
 www.bit.ly
 bit.ly
 ow.ly
@@ -91,10 +93,14 @@ play.googleapis.com
 www.play.googleapis.com
 amazonaws.com
 dev.virtualearth.net
-dl.delivery.mp.microsoft.com # Windows STore
-sls.update.microsoft.com.akadns.net # Windows 10 Update
-fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Windows 10 Update
-tlu.dl.delivery.mp.microsoft.com # Windows 10 Update
+ # Windows STore
+dl.delivery.mp.microsoft.com
+ # Windows 10 Update
+sls.update.microsoft.com.akadns.net
+ # Windows 10 Update
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+ # Windows 10 Update
+tlu.dl.delivery.mp.microsoft.com
 dl.dropbox.com
 dl.dropboxusercontent.com # Dropbox
 ns1.dropbox.com # Dropbox
@@ -131,15 +137,11 @@ www.instagram.com
 geo-p42.instagram.com # CNAME for (instagram.com)
 z-p42-instagram.c10r.instagram.com # CNAME for (instagram.com)
 oauthaccountmanager.googleapis.com
-www.oauthaccountmanager.googleapis.com
 youtubei.googleapis.com
-www.youtubei.googleapis.com
 notifications-pa.googleapis.com
-www.notifications-pa.googleapis.com
 i.instagram.com
-www.i.instagram.com
-geo.instagram.com # CNAME for (i.instagram.com)
-instagram.c10r.instagram.com # CNAME for (i.instagram.com)
+geo.instagram.com 
+instagram.c10r.instagram.com
 traffic.libsyn.com
 www.traffic.libsyn.com
 goo.gl
@@ -234,8 +236,6 @@ www.ups.inq.com
 t.co
 www.t.co
 triggers.wfxtriggers.com
-www.triggers.wfxtriggers.com
-triggers-west.wfxtriggers.com # CNAME for (triggers.wfxtriggers.com)
 cloudsearch.googleapis.com
 www.cloudsearch.googleapis.com
 cloudidentity.googleapis.com
@@ -247,12 +247,10 @@ device-provisioning.googleapis.com
 people-pa.googleapis.com
 appsitemsuggest-pa.googleapis.com
 peoplestack-pa.googleapis.com
-gumroad.com
-www.gumroad.com
 doc-0g-4k-docs.googleusercontent.com
 www.doc-0g-4k-docs.googleusercontent.com
 doc-0c-10-docs.googleusercontent.com
-googlehosted.l.googleusercontent.com # CNAME for (doc-0g-4k-docs.googleusercontent.com)
+googlehosted.l.googleusercontent.com
 doc-0o-a0-docs.googleusercontent.com
 gsp10-ssl.ls-apple.com.akadns.net
 cdnjs.cloudflare.com
@@ -267,9 +265,6 @@ captive.apple.com
 gsp1.apple.com
 www.apple.com
 www.appleiphonecell.com
-chtbl.com # Apple podcast ?
-www.chtbl.com # Apple Podcast ?
-.apple.com
 appleid.apple.com
 albert.apple.com
 gs.apple.com
@@ -313,10 +308,14 @@ iprofiles.apple.com
 mdmenrollment.apple.com
 setup.icloud.com
 vpp.itunes.apple.com
-itunes.apple.com # iTunes or Apple Music
-s.mzstatic.com # Apple Music
-gsp-ssl.ls.apple.com # iOS Weather App
-gsp-ssl.ls-apple.com.akadns.net # iOS Weather App
+# iTunes or Apple Music
+itunes.apple.com
+# Apple Music
+s.mzstatic.com
+# iOS Weather App
+gsp-ssl.ls.apple.com
+# iOS Weather App
+gsp-ssl.ls-apple.com.akadns.net
 plex.tv
 tvdb2.plex.tv
 pubsub.plex.bz
@@ -341,101 +340,59 @@ app.plex.tv
 o1.email.plex.tv
 o2.sg0.plex.tv
 dashboard.plex.tv
-gravatar.com # used by Plex for pictures
-thetvdb.com # Plex for tv series metadata
-themoviedb.com # Plex for movies metadata
-www.api.segment.io
+gravatar.com
+thetvdb.com
+themoviedb.com
 aka.ms
-www.aka.ms
 tracking.exposed
-www.tracking.exposed
 mandrillapp.com
-www.mandrillapp.com
-us.info.lgsmartad.com # Maybe necessary for App Store on LG TV
 aic.service.lgtvcommon.com
 us.lgtvsdp.com
-www.us.lgtvsdp.com
-us-lgtvsdp-com.aws-prd.net # CNAME for (us.lgtvsdp.com)
 collector.unsplash.com
-www.collector.unsplash.com
-unsplash-sp-scala-stream-collector.eba-xnrpnw7e.us-east-1.elasticbeanstalk.com # CNAME for (collector.unsplash.com)
-cws-hulu.conviva.com
-www.cws-hulu.conviva.com
-cws.conviva.com # CNAME for (cws-hulu.conviva.com)
-cws-usw1.conviva.com # CNAME for (cws-hulu.conviva.com)
-cws-iad1.conviva.com # CNAME for (cws-hulu.conviva.com)
 ads-fa-darwin.hulustream.com
-www.ads-fa-darwin.hulustream.com
-vods.hulu.map.fastly.net # CNAME for (ads-fa-darwin.hulustream.com)
 us.lgrecommends.lgappstv.com
-www.us.lgrecommends.lgappstv.com
-us-lgrecommends-lgappstv-com.aws-prd.net # CNAME for (us.lgrecommends.lgappstv.com)
 ngfts.lge.com
-www.ngfts.lge.com
-ngfts.lge.com.edgekey.net # CNAME for (ngfts.lge.com)
-e6114.e21.akamaiedge.net # CNAME for (aic-ngfts.lge.com)
 aic-ngfts.lge.com
-www.aic-ngfts.lge.com
-aic-ngfts.lge.com.edgekey.net # CNAME for (aic-ngfts.lge.com)
-ud-chat.signal.org # Signal
-chat.signal.org # Signal
-storage.signal.org # Signal
-signal.org # Signal
-www.signal.org # Signal
-updates2.signal.org # Signal
-textsecure-service-whispersystems.org # Signal
-giphy-proxy-production.whispersystems.org # Signal
-cdn.signal.org # Signal
-whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com # Signal
-d83eunklitikj.cloudfront.net # Signal
-souqcdn.com # Signal
-cms.souqcdn.com # Signal
-api.directory.signal.org # Signal
-contentproxy.signal.org # Signal
-turn1.whispersystems.org # Signal
-upload.twitter.com # Twitter
-api.twitter.com # Twitter
-mobile.twitter.com # Twitter
+# Begin Signal
+ud-chat.signal.org
+chat.signal.org
+storage.signal.org
+signal.org
+www.signal.org
+updates2.signal.org
+textsecure-service-whispersystems.org
+giphy-proxy-production.whispersystems.org
+cdn.signal.org
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+d83eunklitikj.cloudfront.net
+souqcdn.com
+cms.souqcdn.com
+api.directory.signal.org
+contentproxy.signal.org
+turn1.whispersystems.org
+# end Signal
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
 ott-lgtv.tubitv.com
 www.ott-lgtv.tubitv.com
-lb.production-public.tubi.io # CNAME for (ott-lgtv.tubitv.com)
 mirc.com
-www.mirc.com
 ext-sq.squarespace.com
-www.ext-sq.squarespace.com
 dailymail.co.uk
-www.dailymail.co.uk
-www.dailymail.co.uk.edgekey.net # CNAME for (dailymail.co.uk)
-e5826.dscb.akamaiedge.net # CNAME for (dailymail.co.uk)
 mediafire.com
-www.mediafire.com
 i0.wp.com
-www.i0.wp.com
 p.typekit.net
-www.p.typekit.net
-p.typekit.net-stls-v3.edgesuite.net # CNAME for (p.typekit.net)
-a1874.dscg1.akamai.net # CNAME for (p.typekit.net)
 tumblr.com
-www.tumblr.com
 adamandeve.com
-www.adamandeve.com
 adameve.com
-www.adameve.com
-www.adameve.com.edgekey.net # CNAME for (adameve.com)
 e13104.b.akamaiedge.net # CNAME for (adameve.com)
 us.lgtvlink.com
 www.us.lgtvlink.com
 webostv.developer.lge.com
-www.webostv.developer.lge.com
-lg-sw-business-pmo.netlifyglobalcdn.com # CNAME for (webostv.developer.lge.com)
 audible.sc.omtrdc.net
 www.audible.sc.omtrdc.net
 login.yahoo.com
-www.login.yahoo.com
-ds-ats.member.g02.yahoodns.net # CNAME for (login.yahoo.com)
 grainger.com
-www.grainger.com
 duckduckgo.com
-www.duckduckgo.com
-amazon.com
-www.amazon.com
+
+
