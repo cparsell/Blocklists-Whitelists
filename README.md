@@ -29,7 +29,7 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 ### Regex Filters
 It takes longer for systems to process regex filters than to search through a tree structure database of millions of domains. See [this post](https://discourse.pi-hole.net/t/collection-of-regex-for-blacklisting/43178/10) for some explanation of why. Still, this is comparing sub-millisecond timing to a handful of milliseconds. But for this reason, I still only try to use regex filters that are relevant to me. I have a collection of many regex filters I've found around the internet, but my "pared down" file is of ones that match domains in my own logs.
 
-Regex lists: [mmoti](https://github.com/mmotti/pihole-regex/blob/master/regex.list)
+Regex lists: [mmoti](https://github.com/mmotti/pihole-regex/blob/master/regex.list), [Smart TV regex](https://perflyst.github.io/PiHoleBlocklist/regex.list)
 Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 
 ### Lists of lists
