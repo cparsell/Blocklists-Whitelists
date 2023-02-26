@@ -46,7 +46,7 @@
 ! ||mask.icloud.com^$important
 ! ||mask-h2.icloud.com^$important
 ! ||mask.apple-dns.net^$important
-@@||device-metrics-us-2.amazon.com^^$client='AppleTV',important
+||device-metrics-us-2.amazon.com^$client='AppleTV',important
 ||gateway.facebook.com.wintermute.lan^$important
 ||web.facebook.com.wintermute.lan^$important
 ||mqtt-mini.facebook.com^$important
@@ -54,3 +54,5 @@
 ! Maybe necessary for App Store on LG TV
 ||us.info.lgsmartad.com
 @@||settings-win.data.microsoft.com^$important
+@@||push.prod.netflix.com^$important
+@@||nrdp.nccp.netflix.com^$important
