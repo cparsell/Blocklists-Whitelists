@@ -8,8 +8,7 @@ gsp-ssl-commute.ls.apple.com
 ims-prod06.adobelogin.com
 cc-api-data.adobe.io
 crlog-crcn.adobe.com
-*.adobe.com
-*.aws.adobess.com
+/*.aws.adobess.com/
 *.adobe.io
 *.adobelogin.com
 gsp64-ssl.ls.apple.com
