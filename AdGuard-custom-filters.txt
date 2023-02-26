@@ -53,3 +53,4 @@
 ||edge-chat.facebook.com.berkeley.edu^$important
 ! Maybe necessary for App Store on LG TV
 ||us.info.lgsmartad.com
+@@||settings-win.data.microsoft.com^$important
