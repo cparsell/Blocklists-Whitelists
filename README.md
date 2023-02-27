@@ -61,7 +61,8 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 ## AdGuard Home filters
 - https://big.oisd.nl  # OISD Big list - a list made of many other blocklists, formatted for AdBlock Home filtering rules
 
-### Browser-based Filtering (Adblock Plus, AdGuard *browser extension*, Brave Browser (brave://adblock in the browser):
+### Browser-based Filtering 
+#### Adblock Plus, AdGuard *browser extension*, Brave Browser (brave://adblock in the browser):
 - https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt   # AdGuard DNS list
 - https://easylist.to/easylist/easylist.txt  # Easylist
 - https://easylist-downloads.adblockplus.org/easylist_noadult.txt # Easylist variant without rules for adult sites
