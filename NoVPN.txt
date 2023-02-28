@@ -1,3 +1,12 @@
+# For a short time, I experimented with having my entire network run traffic through a VPN.
+# This screwed with streaming services. They assume you're using a VPN to fake your region.
+# The following list are the domains that had to be given an exception
+# A rule in pfsense that said for these destinations, use the WAN gateway, not the VPN
+# I no longer run all of my traffic through a VPN
+# but here is the list. 
+# Amazon Prime video is the most aggressive. Anytime you go to their site, it connects
+# to a long list of other domains and if, to any of those domains, your IP is the VPN's, 
+# no soup for you.
 
 a132e1f7b7d2994a43d6a39c3d7b566df.profile.lax53-p2.cloudfront.net
 adac55072b27396c910e386c5c24913d4.profile.atl56-c3.cloudfront.net

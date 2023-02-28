@@ -3,14 +3,13 @@
 ||mobile.events.data.microsoft.com^$important
 ||reddit-image.s3.amazonaws.com^$important
 ||s.youtube.com^$important
-||ims-prod06.adobelogin.com^$important
 ||ups.inq.com^$important
-||api.us-east-1.aiv-delivery.net^$important
-||videodirect.amazon.com^$important
-# apple-dns.net
+! apple-dns.net
 ||metrics.apple.com^$important
 ||metrics.icloud.com^$important
-# begin AMAZON
+! begin AMAZON
+||api.us-east-1.aiv-delivery.net^$important
+||videodirect.amazon.com^$important
 ||www.woot.com^$important
 ||music.amazon.com^$important
 ||www.acx.com^$important
@@ -62,7 +61,8 @@
 ||media.blubrry.com^$important
 ||supply.amazon.com^$important
 ||advertising.amazon.com
-!  Begin LG TV
+! end Amazon
+! Begin LG TV
 ||us.rdx2.lgtvsdp.com^$important
 ||us.info.lgsmartad.com^$important
 ||us.ibs.lgappstv.com^$important
@@ -79,9 +79,6 @@
 ||aic.homeprv.lgtvcommon.com^$important
 ||aic.cdpsvc.lgtvcommon.com^$important
 ||aic.cdpbeacon.lgtvcommon.com^$important
-||bl-server.alphonso.tv^$important
-||clockskew.alphonso.tv^$important
-||prov-lg.alphonso.tv^$important
 ||us.info.lgsmartad.com^$important
 ||us.rdx2.lgtvsdp.com^$important
 ||info.crowdsec.net^$important
