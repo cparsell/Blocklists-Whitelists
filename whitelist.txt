@@ -393,5 +393,7 @@ www.audible.sc.omtrdc.net
 login.yahoo.com
 grainger.com
 duckduckgo.com
-
-
+ipv6.he.net
+tunnelbroker.net
+dns.he.net
+math.he.net
