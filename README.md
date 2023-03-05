@@ -52,7 +52,7 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt  # Developer Dan's Ad & Tracking list
 - https://big.oisd.nl/domains # OISD Big - a list made of many other blocklists, hosts list formatted
 - https://small.oisd.nl/domains # OISD Small - a smaller list made of many other lists, hosts list - formatted
-- https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt # YouTube Ad blocklist
+- https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt # YouTube Ad blocklist (hasn't been updated in 2 yrs)
 - https://someonewhocares.org/hosts/zero/hosts # Dan Pollock's host list
 - https://adaway.org/hosts.txt # Adaway adblock host list
 - https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt # AnudeepND adblock list
