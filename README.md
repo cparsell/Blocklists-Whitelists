@@ -6,7 +6,7 @@
  The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pihole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pihole. 
 
  Other whitelists:
- - [Anudeep ND Whitelist](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)
+ - Anudeep ND Whitelist ([domains](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)) ([homepage](https://github.com/anudeepND/whitelist))
  - [Commonly whitelisted domains - Pi-hole Forum](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212)
  
 ## Types of blocklists
