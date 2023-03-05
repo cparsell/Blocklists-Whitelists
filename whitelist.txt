@@ -259,7 +259,7 @@ earth-pa.googleapis.com
 firebaseinstallations.googleapis.com
 zpns.zoom.us
 doc-0s-1c-docs.googleusercontent.com
-xp.apple.com
+# xp.apple.com
 captive.apple.com
 gsp1.apple.com
 www.apple.com
