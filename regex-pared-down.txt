@@ -36,7 +36,6 @@
 /(.+\.)lgsmartad\.com/
 /(.+\.)smartshare\.lgtvsdp\.com/
 /(.+\.)rdx2\.lgtvsdp\.com/
-/^mads\./
 ! my regex filters below
 /([A-Za-z0-9.-]*\.)?[a-z]{2,7}\.footprintdns\.com/
 /([A-Za-z0-9.-]*\.)?fbsbx\.com/
