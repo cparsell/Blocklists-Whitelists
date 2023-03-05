@@ -1,4 +1,4 @@
-﻿## Blocklists-Whitelists 
+﻿# Blocklists-Whitelists 
  
  This is a reference repository for web filtering (ads, tracking, etc). The files listed are some lists I've made - they are specific to things I've either blocked or whitelisted so they will not work perfectly for you but they might be a place to start.
 
@@ -36,6 +36,7 @@ It takes longer for systems to process regex filters than to search through a tr
 Regex lists: [mmoti](https://github.com/mmotti/pihole-regex/blob/master/regex.list), [Smart TV regex](https://perflyst.github.io/PiHoleBlocklist/regex.list)
 Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 
+## Lists
 ### Lists of lists
 - [Firebog](https://firebog.net/)   # Adblocking, malicious site lists, tracking, etc.
 - [Developer Dan](https://www.github.developerdan.com/hosts/)
