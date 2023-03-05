@@ -36,6 +36,8 @@ It takes longer for systems to process regex filters than to search through a tr
 Regex lists: [mmoti](https://github.com/mmotti/pihole-regex/blob/master/regex.list), [Smart TV regex](https://perflyst.github.io/PiHoleBlocklist/regex.list)
 Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 
+
+
 ## Lists
 ### Lists of lists
 - [Firebog](https://firebog.net/)   # Adblocking, malicious site lists, tracking, etc.
