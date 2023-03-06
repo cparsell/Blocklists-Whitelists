@@ -40,7 +40,7 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 
 ## Lists
 ### Lists of lists
-- [Firebog](https://firebog.net/)   # Adblocking, malicious site lists, tracking, etc.
+- [Firebog](https://firebog.net/) - Adblocking, malicious site lists, tracking, etc.
 - [Developer Dan](https://www.github.developerdan.com/hosts/)
 - [Developer Dan's blocklist search tool](https://blocklist-tools.developerdan.com/entries/search) - use to search for a domain name to see if it exists in any of the major blocklists out there
 - [Blocklist.site](https://blocklist.site/)
@@ -49,21 +49,21 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 - [Avoid the Hack](https://avoidthehack.com/best-pihole-blocklists)
 
 ### Host Lists
-- https://v.firebog.net/hosts/AdguardDNS.txt   # AdGuard DNS list, formatted as a hosts list
-- https://github.com/StevenBlack/hosts/raw/master/hosts      # Steven blackcake
-- https://v.firebog.net/hosts/Easylist.txt # Easylist, just the domains
-- https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt  # Developer Dan's Ad & Tracking list
-- https://big.oisd.nl/domains # OISD Big - a list made of many other blocklists, hosts list formatted
-- https://small.oisd.nl/domains # OISD Small - a smaller list made of many other lists, hosts list - formatted
+- https://v.firebog.net/hosts/AdguardDNS.txt - AdGuard DNS list, formatted as a hosts list
+- https://github.com/StevenBlack/hosts/raw/master/hosts - A standard
+- https://v.firebog.net/hosts/Easylist.txt - Easylist, just the domains
+- https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt - Developer Dan's Ad & Tracking list
+- https://big.oisd.nl/domains - OISD Big - a list made of many other blocklists, hosts list formatted
+- https://small.oisd.nl/domains - OISD Small - a smaller list made of many other lists, hosts list - formatted
 - https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt # YouTube Ad blocklist (hasn't been updated in 2 yrs)
-- https://someonewhocares.org/hosts/zero/hosts # Dan Pollock's host list
-- https://adaway.org/hosts.txt # Adaway adblock host list
-- https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt # AnudeepND adblock list
+- https://someonewhocares.org/hosts/zero/hosts - Dan Pollock's host list
+- https://adaway.org/hosts.txt - Adaway adblock host list
+- https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt - AnudeepND adblock list
 - https://v.firebog.net/hosts/static/w3kbl.txt # Firebog suspicious hosts list
-- https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt # DoH Great Wall some software will use DNS-over-HTTPS to route around Pihole/etc
-- https://github.com/curl/curl/wiki/DNS-over-HTTPS # DNS-over-HTTPS servers - another DoH blocklist
+- https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt - DoH Great Wall some software will use DNS-over-HTTPS to route around Pihole/etc
+- https://github.com/curl/curl/wiki/DNS-over-HTTPS - DNS-over-HTTPS servers - another DoH blocklist
 - https://raw.githubusercontent.com/nocturnalarchives/BlockLists/master/public-dns-servers.txt # Public DNS servers
-- https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt # Developer Dan's Google AMP host list ([article about why they're bad](https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/))
+- https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt - Developer Dan's Google AMP host list ([article about why they're bad](https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/))
 
 ## AdGuard Home filters
 - https://big.oisd.nl  # OISD Big list - a list made of many other blocklists, formatted for AdBlock Home filtering rules
