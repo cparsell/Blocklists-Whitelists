@@ -74,7 +74,8 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 - https://big.oisd.nl  # OISD Big list - a list made of many other blocklists, formatted for AdBlock Home filtering rules
 
 ### Browser-based Filtering
-Adblock Plus uBlock Origin, AdGuard *browser extension*, Brave Browser (**brave://adblock** in the browser)
+[Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb),[uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [AdGuard *browser extension*](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg), [Brave Browser](https://brave.com/download/) 
+uBlock Origin and AdBlock Plus are very customizable. Brave Browser is as well (**brave://adblock** in the browser). In Brave Browser, you can add filter lists, however there is a custom filters area that seems to be non-functional at the time of writing.
 - https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt   # AdGuard DNS list
 - https://easylist.to/easylist/easylist.txt  # Easylist
 - https://easylist-downloads.adblockplus.org/easylist_noadult.txt # Easylist variant without rules for adult sites
