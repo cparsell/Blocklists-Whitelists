@@ -30,6 +30,10 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 >
 > /banners/ads/*
 
+### IP Block Lists (pfBlockerNG for pfSense)
+These are lists of IP addresses. The firewall (pfSense) will refuse outbound or inbound connections to any IP adddresses in the list. One can use cybersecurity feeds as a preventative measure against trojans, botnet malware, and other garbage.
+
+
 ### Regex Filters
 It takes longer for systems to process regex filters than to search through a tree structure database of millions of domains. See [this post](https://discourse.pi-hole.net/t/collection-of-regex-for-blacklisting/43178/10) for some explanation of why. Still, this is comparing sub-millisecond timing to a handful of milliseconds. But for this reason, I still only try to use regex filters that are relevant to me. I have a collection of many regex filters I've found around the internet, but my "pared down" file is of ones that match domains in my own logs.
 
