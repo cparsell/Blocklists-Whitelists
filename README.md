@@ -31,7 +31,7 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 > /banners/ads/*
 
 ### IP Block Lists (pfBlockerNG for pfSense)
-These are lists of IP addresses. The firewall (pfSense) will refuse outbound or inbound connections to any IP adddresses in the list. One can use cybersecurity feeds as a preventative measure against trojans, botnet malware, and other garbage.
+These are lists of IP addresses. The firewall (pfSense) will refuse outbound or inbound connections to any IP adddresses in the list. One can use cybersecurity feeds as a preventative measure against trojans, botnet malware, and other garbage. pfBlockerNG's IP 
 
 
 ### Regex Filters
@@ -74,7 +74,7 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 - https://big.oisd.nl  # OISD Big list - a list made of many other blocklists, formatted for AdBlock Home filtering rules
 
 ### Browser-based Filtering
-Adblock Plus, AdGuard *browser extension*, Brave Browser (**brave://adblock** in the browser)
+Adblock Plus uBlock Origin, AdGuard *browser extension*, Brave Browser (**brave://adblock** in the browser)
 - https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt   # AdGuard DNS list
 - https://easylist.to/easylist/easylist.txt  # Easylist
 - https://easylist-downloads.adblockplus.org/easylist_noadult.txt # Easylist variant without rules for adult sites
@@ -86,6 +86,8 @@ Adblock Plus, AdGuard *browser extension*, Brave Browser (**brave://adblock** in
 - https://raw.githubusercontent.com/YanFung/Ads/master/Mobile   # Mobile Ads - does have some domains so it might be useable with DNS blockers
 
 ### IP Block Lists
-- https://public-dns.info/nameservers.txt # Public DNS servers
-- https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall_ipv4 # DoH Great Wall IP list
- 
+- [Public DNS servers](https://public-dns.info/nameservers.txt)
+- [DoH Great Wall IP list](https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall_ipv4)
+- [Spamhaus DROP (Don't Route or Peer) List](https://www.spamhaus.org/drop/drop.txt) consists of netblocks that are "hijacked" or leased by professional spam or cyber-crime operations (used for dissemination of malware, trojan downloaders, botnet controllers).
+- [Spamhaus EDROP List](http://www.spamhaus.org/drop/edrop.txt)
+- [DShield Most Active Attacking IPs](http://feeds.dshield.org/top10-2.txt)
