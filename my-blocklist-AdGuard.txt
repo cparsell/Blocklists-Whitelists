@@ -91,3 +91,5 @@
 ||api.segment.io^$important
 ||i.sng.link^$important
 ||ctldl.windowsupdate.com^$important
+||softwareupdates.amazon.com^$important
+||updates.amazon.com^$important
