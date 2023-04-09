@@ -93,3 +93,5 @@
 ||ctldl.windowsupdate.com^$important
 ||softwareupdates.amazon.com^$important
 ||updates.amazon.com^$important
+||amzdigitaldownloads.edgesuite.net^$important
+||amzdigital-a.akamaihd.net^$important

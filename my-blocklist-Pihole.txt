@@ -203,3 +203,5 @@ softwareupdates.amazon.com
 updates.amazon.com
 softwareupdates.amazon.com
 updates.amazon.com
+amzdigitaldownloads.edgesuite.net
+amzdigital-a.akamaihd.net
