@@ -28,7 +28,6 @@ www.amazon.jobs
 www.alexa.com
 alexa.com
 acx.com
-configuration.ls.apple.com
 www.zappos.com
 zappos.com
 www.pillpack.com

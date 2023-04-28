@@ -29,7 +29,6 @@
 ||www.alexa.com^$important
 ||alexa.com^$important
 ||acx.com^$important^$important
-||configuration.ls.apple.com^$important
 ||www.zappos.com^$important
 ||zappos.com^$important
 ||www.pillpack.com^$important
