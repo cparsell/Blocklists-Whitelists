@@ -1,5 +1,4 @@
-||graph.oculus.com^$important
-||edge-mqtt.facebook.com^$important
+
 ||mobile.events.data.microsoft.com^$important
 ||reddit-image.s3.amazonaws.com^$important
 ||s.youtube.com^$important
@@ -78,15 +77,20 @@
 ||aic.homeprv.lgtvcommon.com^$important
 ||aic.cdpsvc.lgtvcommon.com^$important
 ||aic.cdpbeacon.lgtvcommon.com^$important
-||us.info.lgsmartad.com^$important
-||us.rdx2.lgtvsdp.com^$important
 ||info.crowdsec.net^$important
-! ||edge-mqtt.facebook.com^$client='oculus',important
-! ||graph.oculus.com^$client='oculus',important
-! ||graph.facebook.com^$client='oculus',important
+! -----Facebook ----
+! ||edge-mqtt.facebook.com^$important
+||graph.oculus.com^$important
+||edge-mqtt.facebook.com^$important
+||graph.facebook.com^$important
 ||web.facebook.com^$important
 ||www.facebook.com^$client='oculus'
 ||graph.facebook-hardware.com^$important
+||gateway.facebook.com.wintermute.lan^$important
+||web.facebook.com.wintermute.lan^$important
+||mqtt-mini.facebook.com^$important
+||edge-chat.facebook.com.berkeley.edu^$important
+! ----End Facebook-----
 ||api.segment.io^$important
 ||i.sng.link^$important
 ||ctldl.windowsupdate.com^$important
@@ -94,3 +98,17 @@
 ||updates.amazon.com^$important
 ||amzdigitaldownloads.edgesuite.net^$important
 ||amzdigital-a.akamaihd.net^$important
+||dogvgb9ujhybx.cloudfront.net^$important
+||kindle-store.images-amazon.com^$important
+||firs-ta-g7g.amazon.com^$important
+||kwis-opf-preprod.amazon.com^$important
+||dns.kindle.com^$important
+||ntp-g7g.amazon.com^$important
+||shm.amazon.com^$important
+||pins.amazon.com^$important
+||api.gameanalytics.com^$important
+||https://app-measurement.com/sdk-exp^$important
+||secure.widget.cloud.opta.net^$important
+||jnn-pa.googleapis.com^$important
+||evoke-windowsservices-tas.msedge.net^$important
+||default.exp-tas.com^$important
