@@ -204,3 +204,4 @@ softwareupdates.amazon.com
 updates.amazon.com
 amzdigitaldownloads.edgesuite.net
 amzdigital-a.akamaihd.net
+usbank.demdex.net

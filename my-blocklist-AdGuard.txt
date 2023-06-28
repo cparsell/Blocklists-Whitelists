@@ -112,3 +112,4 @@
 ||jnn-pa.googleapis.com^$important
 ||evoke-windowsservices-tas.msedge.net^$important
 ||default.exp-tas.com^$important
+||usbank.demdex.net^$important
