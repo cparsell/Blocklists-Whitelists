@@ -31,7 +31,7 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 > /banners/ads/*
 
 ### IP Block Lists (pfBlockerNG for pfSense)
-These are lists of IP addresses. The firewall (pfSense) will refuse outbound or inbound connections to any IP adddresses in the list. One can use cybersecurity feeds as a preventative measure against trojans, botnet malware, and other garbage. pfBlockerNG's IP 
+These are lists of IP addresses. The firewall (pfSense) will refuse outbound or inbound connections to any IP adddresses in the list. One can use cybersecurity feeds as a preventative measure against trojans, botnet malware, and other garbage. 
 
 
 ### Regex Filters
