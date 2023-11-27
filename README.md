@@ -11,23 +11,23 @@
  
 ## Types of blocklists
 
- ### Hosts lists (Pihole, Adguard Home, and PfBlockerNG compatible)
+### Hosts lists (Pihole, Adguard Home, and PfBlockerNG compatible)
 Below are some lists I've used. I've experimented with Pihole, PfBlockerNG(for pfSense), AdGuard Home, as well as browser-based filtering like Brave Browser or Adguard extension. So I've included lists of different formats. 
 
-"Hosts lists" are lists that just list domains. Use these for DNS blockers like Pihole, Adguard Home, or PfBlockerNG. 
+"Hosts lists" just list domains. Use these for DNS blockers like Pihole, Adguard Home, or PfBlockerNG. 
 > 0.0.0.0 www.pixel.ad
 > 
 > www.pixel.ad
-Both of these ways are used in hosts lists. They both should be able to be interpretted by DNS blockers.
+Both of these ways are used in hosts lists. They both should be able to be interpreted by DNS blockers.
 
 ### Filter lists (browser-based)
 Browser-based adblockers are able to filter content *within webpages* as they are being loaded. So these are lists of patterns in websites themselves. This allows things like blocking annoying cookie messages or popups telling you that you are using and adblocker. For this reason, I use a browser-based blocker as well as a DNS blocker. Brave Browser's built-in adblocker, AdGuard browser extension, and AdBlock Plus are ones I've used.
 
 These are typical of these kind of filtering rule lists. These are not compatible with Pihole, PfBlockerNG, or AdGuard Home (DNS blockers):
 > .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
->
+
 > /ad_display.
->
+
 > /banners/ads/*
 
 ### IP Block Lists (pfBlockerNG for pfSense)
