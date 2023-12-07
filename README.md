@@ -67,8 +67,9 @@ Tools: [Regex101](https://regex101.com/), [Regexr](https://regexr.com/)
 - https://v.firebog.net/hosts/static/w3kbl.txt # Firebog suspicious hosts list
 - https://raw.githubusercontent.com/Sekhan/TheGreatWall/master/TheGreatWall.txt - DoH Great Wall some software will use DNS-over-HTTPS to route around Pihole/etc
 - https://github.com/curl/curl/wiki/DNS-over-HTTPS - DNS-over-HTTPS servers - another DoH blocklist
-- https://raw.githubusercontent.com/nocturnalarchives/BlockLists/master/public-dns-servers.txt # Public DNS servers
-- https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt - Developer Dan's Google AMP host list ([article about why they're bad](https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/))
+- [Public DNS servers](https://raw.githubusercontent.com/nocturnalarchives/BlockLists/master/public-dns-servers.txt)
+- [Developer Dan's Google AMP host list](https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt) ([article about why they're bad](https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/))
+- [Threat hostlists](https://github.com/PeterDaveHello/threat-hostlist)
 
 ## AdGuard Home filters
 - https://big.oisd.nl  # OISD Big list - a list made of many other blocklists, formatted for AdBlock Home filtering rules
