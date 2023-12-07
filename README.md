@@ -8,6 +8,7 @@
  Other whitelists:
  - Anudeep ND Whitelist ([domains](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)) ([homepage](https://github.com/anudeepND/whitelist))
  - [Commonly whitelisted domains - Pi-hole Forum](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212)
+ - [hl2guide's Adguard Home Whitelist](https://github.com/hl2guide/AdGuard-Home-Whitelist) and some block lists as well
  
 ## Types of blocklists
 
