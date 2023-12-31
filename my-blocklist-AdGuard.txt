@@ -80,16 +80,16 @@
 ||info.crowdsec.net^$important
 ! -----Facebook ----
 ! ||edge-mqtt.facebook.com^$important
-||graph.oculus.com^$important
-||edge-mqtt.facebook.com^$important
-||graph.facebook.com^$important
-||web.facebook.com^$important
-||www.facebook.com^$client='oculus'
-||graph.facebook-hardware.com^$important
-||gateway.facebook.com.wintermute.lan^$important
-||web.facebook.com.wintermute.lan^$important
-||mqtt-mini.facebook.com^$important
-||edge-chat.facebook.com.berkeley.edu^$important
+! ||graph.oculus.com^$important
+! ||edge-mqtt.facebook.com^$important
+! ||graph.facebook.com^$important
+! ||web.facebook.com^$important
+! ||www.facebook.com^$client='oculus'
+! ||graph.facebook-hardware.com^$important
+! ||gateway.facebook.com.wintermute.lan^$important
+! ||web.facebook.com.wintermute.lan^$important
+! ||mqtt-mini.facebook.com^$important
+! ||edge-chat.facebook.com.berkeley.edu^$important
 ! ----End Facebook-----
 ||api.segment.io^$important
 ||i.sng.link^$important
