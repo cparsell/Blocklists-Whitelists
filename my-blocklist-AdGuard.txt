@@ -62,6 +62,7 @@
 ! end Amazon
 ! Begin LG TV
 ||us.rdx2.lgtvsdp.com^$important
+||rdx2.lgtvsdp.com^$important
 ||us.info.lgsmartad.com^$important
 ||us.ibs.lgappstv.com^$important
 ||info.lgsmartad.com^$important
@@ -77,6 +78,8 @@
 ||aic.homeprv.lgtvcommon.com^$important
 ||aic.cdpsvc.lgtvcommon.com^$important
 ||aic.cdpbeacon.lgtvcommon.com^$important
+||aic-ngfts.lge.com^$important
+! End LG TV
 ||info.crowdsec.net^$important
 ! -----Facebook ----
 ! ||edge-mqtt.facebook.com^$important
