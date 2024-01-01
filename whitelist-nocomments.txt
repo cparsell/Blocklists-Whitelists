@@ -220,20 +220,16 @@ earth-pa.googleapis.com
 firebaseinstallations.googleapis.com
 zpns.zoom.us
 doc-0s-1c-docs.googleusercontent.com
-! xp.apple.com
-captive.apple.com
+! Begin APPLE
 gsp1.apple.com
 www.apple.com
 www.appleiphonecell.com
 appleid.apple.com
-albert.apple.com
 gs.apple.com
 humb.apple.com
 static.ips.apple.com
-tbsc.apple.com
 time-ios.apple.com
 time.apple.com
-appldnld.apple.com
 gg.apple.com
 gnf-mdn.apple.com
 gnf-mr.apple.com
@@ -273,6 +269,8 @@ itunes.apple.com
 s.mzstatic.com
 gsp-ssl.ls.apple.com
 gsp-ssl.ls-apple.com.akadns.net
+iphone-ld.apple.com
+! END APPLE
 plex.tv
 tvdb2.plex.tv
 pubsub.plex.bz
@@ -301,14 +299,12 @@ dashboard.plex.tv
 gravatar.com
 thetvdb.com
 themoviedb.com
+! END Plex
 aka.ms
-
 tracking.exposed
 mandrillapp.com
-us.info.lgsmartad.com
 aic.service.lgtvcommon.com
 us.lgtvsdp.com
-www.us.lgtvsdp.com
 us-lgtvsdp-com.aws-prd.net
 collector.unsplash.com
 unsplash-sp-scala-stream-collector.eba-xnrpnw7e.us-east-1.elasticbeanstalk.com
@@ -395,3 +391,6 @@ push.prod.netflix.com
 nrdp.nccp.netflix.com
 gist.githubusercontent.com
 accounts.google.com
+www.usbank.com
+2.bp.blogspot.com
+www.nirsoft.net

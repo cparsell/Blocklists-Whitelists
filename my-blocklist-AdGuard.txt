@@ -113,3 +113,4 @@
 ||evoke-windowsservices-tas.msedge.net^$important
 ||default.exp-tas.com^$important
 ||usbank.demdex.net^$important
+||out053a3bejgh7t0phqa0csou.litix.io^$important

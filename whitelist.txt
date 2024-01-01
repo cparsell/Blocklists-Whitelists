@@ -199,7 +199,6 @@ lh4.googleusercontent.com
 www-gmi-opensocial.googleusercontent.com
 www.apidata.googleusercontent.com
 widget-mediator.zopim.com
-www.widget-mediator.zopim.com
 paypal.com
 www.glb.paypal.com # CNAME for (paypal.com)
 www-fastly.glb.paypal.com # CNAME for (paypal.com)
@@ -227,20 +226,16 @@ earth-pa.googleapis.com
 firebaseinstallations.googleapis.com
 zpns.zoom.us
 doc-0s-1c-docs.googleusercontent.com
-# xp.apple.com
-# captive.apple.com
+# BEGIN APPLE
 gsp1.apple.com
 www.apple.com
 www.appleiphonecell.com
 appleid.apple.com
-# albert.apple.com
 gs.apple.com
 humb.apple.com
 static.ips.apple.com
-# tbsc.apple.com
 time-ios.apple.com
 time.apple.com
-# appldnld.apple.com
 gg.apple.com
 gnf-mdn.apple.com
 gnf-mr.apple.com
@@ -284,6 +279,9 @@ s.mzstatic.com
 gsp-ssl.ls.apple.com
 # iOS Weather App
 gsp-ssl.ls-apple.com.akadns.net
+iphone-ld.apple.com
+# END APPLE
+# BEGIN Plex
 plex.tv
 tvdb2.plex.tv
 pubsub.plex.bz
@@ -312,11 +310,13 @@ dashboard.plex.tv
 gravatar.com
 thetvdb.com
 themoviedb.com
+# END Plex
 aka.ms
 tracking.exposed
 mandrillapp.com
 aic.service.lgtvcommon.com
 us.lgtvsdp.com
+us-lgtvsdp-com.aws-prd.net
 collector.unsplash.com
 unsplash-sp-scala-stream-collector.eba-xnrpnw7e.us-east-1.elasticbeanstalk.com
 cws-hulu.conviva.com
@@ -368,6 +368,7 @@ a1874.dscg1.akamai.net
 tumblr.com
 adamandeve.com
 adameve.com
+www.adameve.com.edgekey.net
 e13104.b.akamaiedge.net # CNAME for (adameve.com)
 us.lgtvlink.com
 webostv.developer.lge.com
@@ -402,3 +403,6 @@ push.prod.netflix.com
 nrdp.nccp.netflix.com
 gist.githubusercontent.com
 accounts.google.com
+www.usbank.com
+2.bp.blogspot.com
+www.nirsoft.net
