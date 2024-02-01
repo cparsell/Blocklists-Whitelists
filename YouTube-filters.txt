@@ -1,0 +1,174 @@
+
+! I recommend testing these out to see if they work for you. I have not tested all of them.
+
+! Sources: 
+! https://github.com/mchangrh/yt-neuter/blob/main/yt-neuter.txt
+! https://github.com/Aidenwebb/ublock-origin-youtube-filters/blob/main/README.md
+
+! fundraiser
+youtube.com###donation-shelf
+! ads
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
+! shelves in watch-next recommendations (shorts shelf)
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
+! shop products in this video
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="shopping_panel_for_entry_point"]
+
+!!! shorts
+! share button (#38)
+youtube.com###share-button.ytd-reel-player-overlay-renderer
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
+
+!!! comments
+! channel member comment badge
+youtube.com##span#sponsor-comment-badge
+! paid (thanks) comment badge
+youtube.com###paid-comment-chip
+! paid (thanks) comment highlight
+youtube.com##ytd-comment-renderer#comment:style(--ytd-comment-paid-background-color: transparent !important;)
+
+!! under description metadata box
+! ticket shelf
+youtube.com###ticket-shelf
+! clarify / covid-19 box
+youtube.com###clarify-box
+! topic (kids/gaming)
+youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_TOPIC]
+! box art (game being played)
+youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
+! show metadata
+youtube.com###collapsible > .ytd-metadata-row-container-renderer
+! featured music
+youtube.com##ytd-video-description-music-section-renderer
+youtube.com##div[slot="extra-content"]:has(button-view-model>a[href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"])
+! featured playlist #37
+youtube.com##ytd-video-description-course-section-renderer
+! products in current video
+youtube.com##ytd-metadata-row-container-renderer:has(ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_SQUARE"])
+! suggested channels
+youtube.com##ytd-metadata-row-renderer:has(yt-formatted-string[has-link-only_] > a[href^="/channel/"])
+! suggested videos
+youtube.com##ytd-metadata-row-renderer:has(yt-formatted-string[has-link-only_] > a[href^="/watch"])
+! age restricted notice
+youtube.com##ytd-metadata-row-renderer:has(a[href="http://www.youtube.com/t/community_guidelines"])
+! featured places
+youtube.com##ytd-horizontal-card-list-renderer:has(ytd-place-data-view-model)
+! infocards section
+youtube.com##ytd-video-description-infocards-section-renderer
+
+!! recommendations sidebar
+! recommendations categories
+youtube.com##yt-chip-cloud-renderer
+! mixes
+youtube.com##.ytd-compact-radio-renderer
+! movie suggestions
+youtube.com##ytd-compact-movie-renderer
+! yt music
+youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
+! new/ fundraiser/ 4k badges
+youtube.com##.badge:has(>:has-text(Fundraiser))
+youtube.com##.badge:has(>:has-text(New))
+youtube.com##.badge:has(>:has-text(4K))
+! nudges (recommendation/ turn on watch history)
+youtube.com##ytd-feed-nudge-renderer
+! watch on youtube
+youtube.com##ytd-tvfilm-offer-module-renderer
+
+!! endscreen
+! mixes
+youtube.com##.ytp-videowall-still[data-is-mix=true]
+!!! channel page
+!! shelves
+! recognized channel member
+youtube.com##.ytd-recognition-shelf-renderer
+! members only videos
+youtube.com##ytd-shelf-renderer:has(.badge-style-type-members-only)
+! featured channels
+youtube.com##ytd-shelf-renderer:has(ytd-channel-renderer):has(.grid-subheader:not(:has(>#title-container[hidden])))
+! channel scroller
+youtube.com##ytd-shelf-renderer:has(ytd-grid-channel-renderer)
+!! header / homepage
+! channel banner
+youtube.com##.banner-visible-area
+youtube.com##.page-header-banner
+! home page links
+youtube.com###channel-header > #links-holder
+youtube.com###channel-header-links
+! channel handle
+youtube.com###meta>p:has(>#channel-handle)
+youtube.com##.meta-item:has(>#channel-handle)
+
+!! tabs
+! channel store tab
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Store))
+youtube.com##yt-tab-shape[tab-title="Store"]
+! community tab
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Community))
+youtube.com##yt-tab-shape[tab-title="Community"]
+! channels
+youtube.com##tp-yt-paper-tab:has(> .tab-content:has-text(Channels))
+youtube.com##yt-tab-shape[tab-title="Channels"]
+!! about
+! about > links
+youtube.com###links-container.ytd-channel-about-metadata-renderer
+!! search
+!! misc
+! channel member prompt popup
+youtube.com##yt-bubble-hint-renderer > .yt-bubble-hint-renderer:has(.yt-formatted-string:has-text(Memebership))
+
+!!! live chat
+! chat window
+youtube.com###chat
+! superchat/member ticker
+youtube.com###ticker
+! superchat/ donate button
+youtube.com###product-picker
+! superchats
+youtube.com##yt-live-chat-paid-message-renderer
+! memberships
+youtube.com##yt-live-chat-membership-item-renderer
+! paid badges
+youtube.com##yt-live-chat-paid-sticker-renderer
+! chat member badge
+youtube.com##yt-live-chat-author-badge-renderer[type=member]
+! revert member color
+youtube.com###author-name.member:style(color: var(--yt-live-chat-secondary-text-color, rgba(255,255,255,0.7)) !important)
+! custom emojis
+youtube.com##.emoji[data-emoji-id]
+! emoji-only messages
+youtube.com##yt-live-chat-text-message-renderer:not(:has(#message:min-text-length(1)))
+
+!! premiere chat
+! hide "chat replay is disabled"
+www.youtube.com##ytd-live-chat-frame:has(> ytd-message-renderer)
+
+!!! search
+! People also watched, Latest from channel, For you, Previously watched, Channels new to you
+youtube.com##:matches-path(/results) ytd-shelf-renderer
+! People also search for
+youtube.com##:matches-path(/results) ytd-horizontal-card-list-renderer
+! Featured channels
+youtube.com##:matches-path(/results) ytd-universal-watch-card-renderer
+! channel mix
+youtube.com##ytd-radio-renderer
+! channel
+!! channel description
+youtube.com##:matches-path(/results) .ytd-channel-renderer#description
+
+!!! embed
+! info panel
+youtube.com##.ytp-info-panel-preview
+! watch on youtube overlay
+youtube.com##.ytp-impression-link
+
+!
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+! For the closable popup
+youtube.com#?#ytd-enforcement-message-view-model:has(> div.ytd-enforcement-message-view-model)
+youtube.com#$#tp-yt-iron-overlay-backdrop { display: none !important; }
+youtube.com#$?#tp-yt-paper-dialog:has(> ytd-enforcement-message-view-model > div.ytd-enforcement-message-view-model) { remove: true; }
+! For the overlay
+youtube.com#$#ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy { visibility: visible !important; }
+youtube.com#$?#yt-playability-error-supported-renderers:has(yt-button-view-model[dialog-dismiss]) { display: none !important; }
+!#endif
+
