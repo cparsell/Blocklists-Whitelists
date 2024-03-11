@@ -13,6 +13,10 @@ I myself disable some of the filters such as:
 - "save to playlist" button
 - the "categories" list at the top of the page.
 
+## YT Search Results modifications
+
+I found these on this [Reddit post](https://www.reddit.com/r/youtube/comments/rpmx2y/how_to_remove_related_to_your_search_related/). Remove things like hte "For you" section, "People also watched", etc. from your search results.
+
 ## Youtube adblock filters
 
 [aidenwebb/ublock-origin-youtube-filters](https://github.com/Aidenwebb/ublock-origin-youtube-filters) provides a small set of filters that might have to do with ads or popups. I haven't really tested these much.
