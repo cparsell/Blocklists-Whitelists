@@ -4,7 +4,7 @@ This is a reference repository for web filtering (ads, tracking, etc). The files
 
 ### Whitelists
 
-The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pihole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pihole.
+The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pi-hole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pi-hole.
 
 Other whitelists:
 
