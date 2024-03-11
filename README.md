@@ -2,7 +2,7 @@
 
 This is a reference repository for web filtering (ads, tracking, etc). The files listed are some lists I've made - they are specific to things I've either blocked or whitelisted so they will not work perfectly for you but they might be a place to start. As a general rule, host lists should be updated regularly so do not use host lists that have not been updated recently (within days or weeks).
 
-### Whitelist
+### Whitelists
 
 The whitelist I've included is what I've built up over time for myself. If you want to add it, or another whitelist, into Pihole there is no way to import an entire list. So I wrote a very short Python script for this. It will run through a downloaded text file and push each line into Pihole.
 
