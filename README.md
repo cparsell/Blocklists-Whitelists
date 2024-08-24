@@ -64,9 +64,14 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 **Filters**
 
 ```
+! Comment
 .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 /ad_display.
 /banners/ads/\*
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
+###aniview--player
+||netinsight.co.kr^$third-party
+bleedingcool.com##.post_content_spacer
 ```
 
 ### Browser Adblockers
