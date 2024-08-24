@@ -61,7 +61,7 @@ www.pixel.ad
 
 These are typical of these kind of filtering rule lists. These are not compatible with Pi-hole, PfBlockerNG, or AdGuard Home (DNS blockers):
 
-**Filter list example**
+**Filters**
 
 ```
 .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
@@ -69,13 +69,16 @@ These are typical of these kind of filtering rule lists. These are not compatibl
 /banners/ads/\*
 ```
 
-### Filter lists:
+### Browser Adblockers
 
 - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [AdGuard _browser extension_](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)
 - [Brave Browser](https://brave.com/download/)
-  uBlock Origin and AdBlock Plus are very customizable. Brave Browser is as well (**brave://adblock** in the browser). In Brave Browser, you can add filter lists, however there is a custom filters area that seems to be non-functional at the time of writing.
+  uBlock Origin and AdBlock Plus are very customizable. Brave Browser is as well (`brave://adblock` in the browser). There you can add you can add filter lists as well as individual custom filters.
+
+### Filter lists:
+
 - [AdGuard DNS list](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt)
 - [Easylist](https://easylist.to/easylist/easylist.txt)
 - [Easylist - no adult](https://easylist-downloads.adblockplus.org/easylist_noadult.txt) variant without rules for adult sites
