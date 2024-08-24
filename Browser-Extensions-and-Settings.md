@@ -11,13 +11,13 @@
 
 ### Other browser tools for privacy
 
-- [HTTPS Everywhere](https://www.eff.org/https-everywhere) A must-have if your browser does not already force upgrade links to HTTPS
 - [Privacy Badger](https://www.eff.org/privacybadger) prevents tracking/cookies
 - [Clear URLS](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) - This extension will automatically remove tracking elements from URLs to help protect your privacy when browse through the Internet.
 - [Location Guard](https://chrome.google.com/webstore/detail/location-guard/cfohepagpmnodfdmjliccbbigdkfcgia) - reports a false geographic location to websites.
 - [LocalCDN](https://chromewebstore.google.com/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd)
 - [Terms of Service; Didn’t Read](https://chrome.google.com/webstore/detail/terms-of-service-didn%E2%80%99t-r/hjdoplcnndgiblooccencgcggcoihigg) - Get information instantly about websites' terms of service and privacy policies, with ratings and summaries.
 - [Violentmonkey](https://violentmonkey.github.io/get-it/) - Twitch ad blocking
+- [Chaff](https://chromewebstore.google.com/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje?hl=en-US) generates random web browsing traffic to obfuscate actual browsing behavior to avoid profiling through 3rd party observation. Useful in situations where your traffic is monitored.
 
 ## Settings
 
