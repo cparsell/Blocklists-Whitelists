@@ -1,6 +1,6 @@
-# uBlock Origin Filters
+# uBlock Origin Custom Filters
 
-These are some useful filters for cleaning up certain parts of the internet. uBlock already comes with filters that do this sort of thing, like removing cookie notifications or social media hooks added on to other sites (like buttons, comment boxes, etc.)
+These go in "My Filters" in uBlock Origin settings. These are some useful filters for cleaning up certain parts of the internet. uBlock already comes with filter lists that do this sort of thing, like removing cookie notifications or social media hooks added on to other sites (like buttons, comment boxes, etc.).
 
 Add these by specifying the raw file location (will enable all the rules) or by pasting them into "My Filters" in uBlock. The latter method will allow you to remove some bits selectively.
 
