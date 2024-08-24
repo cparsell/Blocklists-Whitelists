@@ -86,10 +86,10 @@ bleedingcool.com##.post_content_spacer
 
 - [AdGuard DNS list](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt)
 - [Easylist](https://easylist.to/easylist/easylist.txt)
-- [Easylist - no adult](https://easylist-downloads.adblockplus.org/easylist_noadult.txt) variant without rules for adult sites
+- [Easylist - no adult](https://easylist-downloads.adblockplus.org/easylist_noadult.txt) variant without adult site blocking
 - [Easyprivacy](https://easylist.to/easylist/easyprivacy.txt) is an optional supplementary filter list that completely removes all forms of tracking from the internet
 - [Easylist Cookie List](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt) blocks cookies banners, GDPR overlay windows, etc.
-- [Fanboy's Social Blocking List](https://easylist.to/easylist/fanboy-social.txt) - removes like buttons and othe social media widgets from websites
+- [Fanboy's Social Blocking List](https://easylist.to/easylist/fanboy-social.txt) - removes 'like buttons' and other social media widgets from websites
 - [Fanboy's Annoyance List](https://secure.fanboy.co.nz/fanboy-annoyance.txt) - blocks Social Media content, in-page pop-ups and other annoyances
 - [Adblock Warning Removal List](https://easylist-downloads.adblockplus.org/antiadblockfilters.txt) specifically removes obtrusive messages and warnings targeted to users who use an adblocker.
 - [Mobile Ads](https://raw.githubusercontent.com/YanFung/Ads/master/Mobile) # Mobile Ads - does have some domains so it might be useable with DNS blockers
