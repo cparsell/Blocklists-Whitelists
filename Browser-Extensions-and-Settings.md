@@ -11,6 +11,8 @@
 
 ### Other browser tools for privacy
 
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere) A must-have if your browser does not already force upgrade links to HTTPS
+- [Privacy Badger](https://www.eff.org/privacybadger) prevents tracking/cookies
 - [Clear URLS](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) - This extension will automatically remove tracking elements from URLs to help protect your privacy when browse through the Internet.
 - [Location Guard](https://chrome.google.com/webstore/detail/location-guard/cfohepagpmnodfdmjliccbbigdkfcgia) - reports a false geographic location to websites.
 - [LocalCDN](https://chromewebstore.google.com/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd)
