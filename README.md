@@ -61,7 +61,7 @@ www.pixel.ad
 
 These are typical of these kind of filtering rule lists. These are not compatible with Pi-hole, PfBlockerNG, or AdGuard Home (DNS blockers):
 
-**Filters**
+**Filter Examples**
 
 ```
 ! Comment
