@@ -395,3 +395,5 @@ www.usbank.com
 2.bp.blogspot.com
 www.nirsoft.net
 someonewhocares.org
+cp-pihole.duckdns.org
+blindsight-cypress.duckdns.org
