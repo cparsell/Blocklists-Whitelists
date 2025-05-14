@@ -185,7 +185,7 @@ ipinfo.io
 content-dictionaryextension-pa.googleapis.com
 ajax.googleapis.com
 reminders-pa.googleapis.com
-firestore.googleapis.com
+# firestore.googleapis.com # ??
 googleapis.l.google.com # Gmail
 dl.google.com # Google Chrome
 traffic.omny.fm
@@ -404,3 +404,4 @@ www.usbank.com
 2.bp.blogspot.com
 www.nirsoft.net
 someonewhocares.org
+docs.google.com

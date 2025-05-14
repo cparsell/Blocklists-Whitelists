@@ -182,7 +182,6 @@ ipinfo.io
 content-dictionaryextension-pa.googleapis.com
 ajax.googleapis.com
 reminders-pa.googleapis.com
-firestore.googleapis.com
 googleapis.l.google.com
 dl.google.com
 traffic.omny.fm
@@ -397,3 +396,7 @@ www.nirsoft.net
 someonewhocares.org
 cp-pihole.duckdns.org
 blindsight-cypress.duckdns.org
+docs.google.com
+accounts.google.com
+crash.steampowered.com
+apple.dns.nextdns.io
